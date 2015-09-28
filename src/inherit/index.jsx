@@ -25,15 +25,44 @@ export default class BrushSet extends Component {
   }
 
   setDomain(axis, val) {
+    const {
+      xScale,
+      xRange,
+      xDomain,
+      xRangeRoundBands,
+      yScale,
+      yRange,
+      yDomain,
+      yRangeRoundBands
+    } = this.props;
+
     if(axis === 'x'){
+
+      var xScaleChange = {
+        scale: xScale,
+        range: xRange,
+        domain: val,
+        rangeRoundBands: xRangeRoundBands
+      }
+
       // set x scale
       this.setState({
-        xDomainSet: val
+        xDomainSet: val,
+        xScaleSet: scale(xScaleChange)
       })
     }else if(axis === 'y'){
+
+      var yScaleChange = {
+        scale: yScale,
+        range: yRange,
+        domain: val,
+        rangeRoundBands: yRangeRoundBands
+      }
+
       // set y scale
       this.setState({
-        yDomainSet: val
+        yDomainSet: val,
+        yScaleSet: scale(yScaleChange)
       })
     }
   }

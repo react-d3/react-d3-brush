@@ -14,6 +14,8 @@ import {
 
 import {
   Bar as Bar,
+  BarStack as BarStack,
+  BarGroup as BarGroup,
   Line as Line,
   Area as AreaSimple,
   Scatter as Scatter,
@@ -58,6 +60,7 @@ export default class Brush extends Component {
 
     const {
       brushHeight,
+      brushType,
       setDomain,
       margins
     } = this.props;
@@ -66,7 +69,23 @@ export default class Brush extends Component {
       .x(xBrushScaleSet)
       .on("brush", () => {
         var newDomain = brush.empty() ? xBrushScaleSet.domain() : brush.extent();
-        setDomain("x", newDomain)
+
+        if( brushType === 'line' ||
+          brushType === 'scatter' ||
+          brushType === 'area_stack') {
+          setDomain("x", newDomain);
+        }else if( brushType === 'bar' ||
+          brushType === 'bar_group' ||
+          brushType === 'bar_stack'
+        ) {
+          var selected =  xBrushScaleSet.domain()
+  						.filter((d) => {
+  							return (newDomain[0] <= xBrushScaleSet(d)) &&
+                  (xBrushScaleSet(d) <= newDomain[1]);
+  						});
+
+          setDomain("x", selected);
+        }
       });
 
     d3.select(React.findDOMNode(this.refs.brushRect))
@@ -143,6 +162,37 @@ export default class Brush extends Component {
       }else if(brushType === 'bar') {
         var brushChart = chartSeriesData.map((d, i) => {
           return <Bar dataset={d} key={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
+        })
+      }else if(brushType === 'bar_group') {
+        // settings x1
+        var x1 = d3.scale.ordinal();
+
+        // mapping x1, inner x axis
+        x1.domain(chartSeriesData.map((d) => { return d.field}))
+          .rangeRoundBands([0, xBrushScaleSet.rangeBand()]);
+
+        var brushChart = chartSeriesData.map((d, i) => {
+          return <BarGroup x1={x1} dataset={d} key={i} count={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps} />
+        })
+      }else if(brushType === 'bar_stack') {
+
+        var stackVal = chartSeriesData[0].data.map(d => {
+          return {name: d.x, y0: 0};
+        })
+
+        var brushChart = chartSeriesData.map((d, j) => {
+          var stackObj = {};
+
+          stackVal.forEach((dkey, i) => {
+
+            var prev = (j === 0)? 0: chartSeriesData[j - 1].data[i].y;
+            var newVal = dkey.y0 + prev;
+            stackVal[i].y0 = newVal;
+
+            stackObj[dkey.name]= {y: d.data[i].y, y0: newVal}
+          })
+
+          return <BarStack stackVal={stackObj} dataset={d} key={j} count={j} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
         })
       }
     }

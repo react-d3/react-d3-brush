@@ -45,7 +45,7 @@ export default class BarBrush extends BrushSet {
     return (
       <div>
         <Chart {...this.props}>
-          <BarChart {...this.props} xDomain={xDomainSet} showBrush={true}/>
+          <BarChart {...this.props} {...this.state} xDomain={xDomainSet} showBrush={true}/>
           {focus}
         </Chart>
         {brush}

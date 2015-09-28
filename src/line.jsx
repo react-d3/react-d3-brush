@@ -45,7 +45,7 @@ export default class LineBrush extends BrushSet {
     return (
       <div>
         <Chart {...this.props}>
-          <LineChart {...this.props} xDomain={xDomainSet} showBrush={true}/>
+          <LineChart {...this.props} {...this.state} xDomain={xDomainSet} showBrush={true}/>
           {focus}
         </Chart>
         {brush}

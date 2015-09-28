@@ -16,51 +16,40 @@ import {
 } from 'react-d3-basics';
 
 import {
-  default as TooltipSet
+  default as BrushSet
 } from './inherit/index';
 
 import {
-  default as Tooltip
-} from './utils/tooltip';
+  default as Brush,
+} from './utils/brush';
 
-export default class BarGroupTooltip extends TooltipSet {
+import {
+  default as BrushFocus,
+} from './utils/brush_focus';
 
-  _mouseOver(d, dom) {
 
-    d3.select(dom)
-      .style("fill-opacity", 1);
-
-    this.setState({
-      xTooltip: d3.event.clientX,
-      yTooltip: d3.event.clientY,
-      contentTooltip: d
-    })
-  }
-
-  _mouseOut(d, dom, opacity) {
-    d3.select(dom)
-      .style("fill-opacity", opacity);
-
-    this.setState({
-      xTooltip: null,
-      yTooltip: null,
-      contentTooltip: null
-    })
+export default class BarGroupBrush extends BrushSet {
+  constructor(props) {
+    super(props)
   }
 
   render() {
+    const {
+      xDomainSet
+    } = this.state;
 
     var chartSeriesData = series(this.props)
 
-    var tooltip = <Tooltip {...this.props} {...this.state}/>
-
+    var focus = <BrushFocus {...this.props} />
+    var brush = <Brush {...this.props} {...this.state} brushType="bar_group" chartSeriesData={chartSeriesData} setDomain={this.setDomain.bind(this)} />
 
     return (
       <div>
-        {tooltip}
         <Chart {...this.props}>
-          <BarGroupChart {...this.props} {...this.state} onMouseOver={this._mouseOver.bind(this)} onMouseOut={this._mouseOut.bind(this)}/>
+          <BarGroupChart {...this.props} {...this.state} xDomain={xDomainSet} showBrush={true}/>
+          {focus}
         </Chart>
+        {brush}
       </div>
     )
   }

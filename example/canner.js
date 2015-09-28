@@ -73,4 +73,20 @@ module.exports = [{
     "type": "brush_bar",
     "prefix": ENV? 'min': 'origin'
   }
+},{
+  "layout": "./charts.hbs",
+  "filename": "./example/brush_bar_stack.html",
+  "data": {
+    "title": "Brush Bar Stack Chart",
+    "type": "brush_bar_stack",
+    "prefix": ENV? 'min': 'origin'
+  }
+},{
+  "layout": "./charts.hbs",
+  "filename": "./example/brush_bar_group.html",
+  "data": {
+    "title": "Brush Bar Group Chart",
+    "type": "brush_bar_group",
+    "prefix": ENV? 'min': 'origin'
+  }
 }]
