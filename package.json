@@ -1,6 +1,6 @@
 {
   "name": "react-d3-brush",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react-d3 brush implementation",
   "main": "index.jsx",
   "scripts": {

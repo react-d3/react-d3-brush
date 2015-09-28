@@ -28,3 +28,24 @@ export {ScatterBrush as ScatterBrush}
 export {BarBrush as BarBrush}
 export {BarGroupBrush as BarGroupBrush}
 export {BarStackBrush as BarStackBrush}
+
+// inherit
+
+import {
+  default as BrushSet
+} from './src/inherit/index';
+
+export {BrushSet as BrushSet}
+
+// utils
+
+import {
+  default as Brush
+} from './src/utils/brush';
+
+import {
+  default as BrushFocus
+} from './src/utils/brush_focus';
+
+export {Brush as Brush}
+export {BrushFocus as BrushFocus}
