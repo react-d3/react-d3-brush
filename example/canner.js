@@ -21,20 +21,12 @@ var dev_brush_link = brush_charts.map(function(d) {
 
 module.exports = [{
   "layout": "./gallery.hbs",
-  "filename": "./example/brush_gallery.html",
+  "filename": "./example/gallery.html",
   "data": {
     "charts": brush_charts,
     "link": ENV? prod_brush_link: dev_brush_link,
     "mode": ENV,
     "title": "React-d3-brush"
-  }
-},{
-  "layout": "./gallery.hbs",
-  "filename": "./example/combine.html",
-  "data": {
-    "charts": ["combine"],
-    "link": ENV? ['min/combine.min']: ['origin/combine'],
-    "mode": ENV
   }
 },{
   "layout": "./charts.hbs",
