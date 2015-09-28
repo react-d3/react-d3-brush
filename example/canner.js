@@ -2,11 +2,13 @@
 var ENV = !!(+process.env.NODE_ENV || 0);
 
 var brush_charts = [
+  "brush_bar",
+  "brush_bar_group",
+  "brush_bar_stack",
   "brush_line",
   "brush_line_multi",
   "brush_scatter",
-  "brush_area_stack",
-  "brush_bar"
+  "brush_area_stack"
 ]
 
 var prod_brush_link = brush_charts.map(function(d) {
@@ -23,7 +25,8 @@ module.exports = [{
   "data": {
     "charts": brush_charts,
     "link": ENV? prod_brush_link: dev_brush_link,
-    "mode": ENV
+    "mode": ENV,
+    "title": "React-d3-brush"
   }
 },{
   "layout": "./gallery.hbs",
