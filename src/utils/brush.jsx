@@ -13,24 +13,12 @@ import {
 } from 'react-d3-core';
 
 import {
-  default as Line,
-} from '../components/line';
-
-import {
-  default as AreaSimple,
-} from '../components/area';
-
-import {
-  default as Scatter,
-} from '../components/scatter';
-
-import {
-  default as AreaStack,
-} from '../components/area_stack';
-
-import {
-  default as xyChart
-} from '../inherit/xyPlot';
+  Bar as Bar,
+  Line as Line,
+  Area as AreaSimple,
+  Scatter as Scatter,
+  AreaStack as AreaStack
+} from 'react-d3-basics';
 
 require('../css/brush.css');
 
@@ -132,8 +120,6 @@ export default class Brush extends Component {
       yRange,
       showYAxis,
       yLabel,
-      xScaleSet,
-      yScaleSet,
       ...otherProps
     } = this.props;
 
@@ -154,6 +140,10 @@ export default class Brush extends Component {
         })
       }else if(brushType === 'area_stack') {
         var brushChart = <AreaStack height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} dataset={chartSeriesData} {...otherProps} />
+      }else if(brushType === 'bar') {
+        var brushChart = chartSeriesData.map((d, i) => {
+          return <Bar dataset={d} key={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
+        })
       }
     }
 

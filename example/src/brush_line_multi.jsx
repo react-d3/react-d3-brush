@@ -6,7 +6,7 @@ import {
 } from 'react';
 
 import {
-  BrushLine as BrushLine
+  LineBrush as LineBrush
 } from '../../index';
 
 (() => {
@@ -68,20 +68,11 @@ import {
     yLabel = "Temperature (ºF)";
 
   /*
-  ** Inherit variables:
-  **
-  ** - id
-  ** - x
-  ** - xDomain
-  ** - xRange
-  ** - xScale
-  ** - y
-  ** - yDomain
-  ** - yRange
-  ** - yScale
+  ** Inherit variables
   */
+
   React.render(
-    <BrushLine
+    <LineBrush
       title= {title}
       data= {generalChartData}
       width= {width}

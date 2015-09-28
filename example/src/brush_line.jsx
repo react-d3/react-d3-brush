@@ -6,7 +6,7 @@ import {
 } from 'react';
 
 import {
-  BrushLine as BrushLine
+  LineBrush as LineBrush
 } from '../../index';
 
 (() => {
@@ -54,7 +54,7 @@ import {
     yLabel = "Age";
 
   React.render(
-    <BrushLine
+    <LineBrush
       title= {title}
       data= {generalChartData}
       width= {width}

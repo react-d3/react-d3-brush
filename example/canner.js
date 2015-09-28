@@ -5,7 +5,8 @@ var brush_charts = [
   "brush_line",
   "brush_line_multi",
   "brush_scatter",
-  "brush_area_stack"
+  "brush_area_stack",
+  "brush_bar"
 ]
 
 var prod_brush_link = brush_charts.map(function(d) {
@@ -62,6 +63,14 @@ module.exports = [{
   "data": {
     "title": "Brush Area Stack Chart",
     "type": "brush_area_stack",
+    "prefix": ENV? 'min': 'origin'
+  }
+},{
+  "layout": "./charts.hbs",
+  "filename": "./example/brush_bar.html",
+  "data": {
+    "title": "Brush Bar Chart",
+    "type": "brush_bar",
     "prefix": ENV? 'min': 'origin'
   }
 }]

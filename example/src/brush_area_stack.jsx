@@ -6,7 +6,7 @@ import {
 } from 'react';
 
 import {
-  BrushAreaStack as BrushAreaStack
+  AreaStackBrush as AreaStackBrush
 } from '../../index';
 
 (() => {
@@ -71,7 +71,7 @@ import {
     yLabel = "Browser rate (%)";
 
   React.render(
-    <BrushAreaStack
+    <AreaStackBrush
       title= {title}
       data= {generalChartData}
       width= {width}
