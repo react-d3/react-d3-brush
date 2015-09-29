@@ -20,7 +20,7 @@ import {
   Area as AreaSimple,
   Scatter as Scatter,
   AreaStack as AreaStack
-} from 'react-d3-basics';
+} from 'react-d3-basic';
 
 require('../css/brush.css');
 
