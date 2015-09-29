@@ -79,10 +79,10 @@ export default class Brush extends Component {
           brushType === 'bar_stack'
         ) {
           var selected =  xBrushScaleSet.domain()
-  						.filter((d) => {
-  							return (newDomain[0] <= xBrushScaleSet(d)) &&
+              .filter((d) => {
+                return (newDomain[0] <= xBrushScaleSet(d)) &&
                   (xBrushScaleSet(d) <= newDomain[1]);
-  						});
+              });
 
           setDomain("x", selected);
         }
