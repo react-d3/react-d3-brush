@@ -2,6 +2,12 @@
 
 `react-d3` brush implementation.
 
+## Install
+
+```
+npm install --save react-d3-brush
+```
+
 ## Support Brush Component
 
 - Line Chart: export as `LineBrush`
@@ -11,6 +17,9 @@
 - Bar Stack: export as `BarStackBrush`
 - Bar Group: export as `BarGroupBrush`
 
+## Gallery
+
+![img](http://www.reactd3.org/img/brush/cover.png)
 
 ## License
 
