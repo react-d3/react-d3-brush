@@ -152,21 +152,21 @@ export default class Brush extends Component {
         var brushChart = chartSeriesData.map((d, i) => {
           if(d.area) {
             // area chart
-            return <AreaSimple dataset={d} key={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
+            return <AreaSimple margins={brushMargins} dataset={d} key={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
           } else {
             // simple line chart
-            return <Line dataset={d} key={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
+            return <Line margins={brushMargins} dataset={d} key={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
           }
         })
       }else if(brushType === 'scatter') {
         var brushChart = chartSeriesData.map((d, i) => {
-          return <Scatter dataset={d} key={i} brushSymbol={true} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps} />
+          return <Scatter margins={brushMargins} dataset={d} key={i} brushSymbol={true} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps} />
         })
       }else if(brushType === 'area_stack') {
-        var brushChart = <AreaStack height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} dataset={chartSeriesData} {...otherProps} />
+        var brushChart = <AreaStack margins={brushMargins} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} dataset={chartSeriesData} {...otherProps} />
       }else if(brushType === 'bar') {
         var brushChart = chartSeriesData.map((d, i) => {
-          return <Bar dataset={d} key={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
+          return <Bar margins={brushMargins} dataset={d} key={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
         })
       }else if(brushType === 'bar_group') {
         // settings x1
@@ -177,7 +177,7 @@ export default class Brush extends Component {
           .rangeRoundBands([0, xBrushScaleSet.rangeBand()]);
 
         var brushChart = chartSeriesData.map((d, i) => {
-          return <BarGroup x1={x1} dataset={d} key={i} count={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps} />
+          return <BarGroup margins={brushMargins} x1={x1} dataset={d} key={i} count={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps} />
         })
       }else if(brushType === 'bar_stack') {
 
@@ -197,7 +197,7 @@ export default class Brush extends Component {
             stackObj[dkey.name]= {y: d.data[i].y, y0: newVal}
           })
 
-          return <BarStack stackVal={stackObj} dataset={d} key={j} count={j} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
+          return <BarStack margins={brushMargins} stackVal={stackObj} dataset={d} key={j} count={j} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
         })
       }
     }
