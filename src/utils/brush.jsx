@@ -22,7 +22,7 @@ import {
   AreaStack as AreaStack
 } from 'react-d3-basic';
 
-require('../css/brush.css');
+require('../../css/brush.css');
 
 export default class Brush extends Component {
   constructor(props) {

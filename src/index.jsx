@@ -1,26 +1,26 @@
 import {
   default as LineBrush
-} from './src/line';
+} from './line';
 
 import {
   default as AreaStackBrush
-} from './src/area_stack';
+} from './area_stack';
 
 import {
   default as ScatterBrush
-} from './src/scatter';
+} from './scatter';
 
 import {
   default as BarBrush
-} from './src/bar';
+} from './bar';
 
 import {
   default as BarGroupBrush
-} from './src/bar_group';
+} from './bar_group';
 
 import {
   default as BarStackBrush
-} from './src/bar_stack';
+} from './bar_stack';
 
 export {LineBrush as LineBrush}
 export {AreaStackBrush as AreaStackBrush}
@@ -33,7 +33,7 @@ export {BarStackBrush as BarStackBrush}
 
 import {
   default as BrushSet
-} from './src/inherit/index';
+} from './inherit/index';
 
 export {BrushSet as BrushSet}
 
@@ -41,11 +41,11 @@ export {BrushSet as BrushSet}
 
 import {
   default as Brush
-} from './src/utils/brush';
+} from './utils/brush';
 
 import {
   default as BrushFocus
-} from './src/utils/brush_focus';
+} from './utils/brush_focus';
 
 export {Brush as Brush}
 export {BrushFocus as BrushFocus}

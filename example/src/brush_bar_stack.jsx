@@ -1,15 +1,9 @@
 "use strict";
 
-import {
-  default as React,
-  Component,
-} from 'react';
+var React = require('react');
+var BarStackBrush = require('../../lib').BarStackBrush;
 
-import {
-  BarStackBrush
-} from '../../index';
-
-(() => {
+(function() {
   var generalChartData = require('dsv?delimiter=,!./data/age.csv')
 
   var ageNames = d3.keys(generalChartData[0]).filter(function(key) { return key !== "State"; });
@@ -20,7 +14,7 @@ import {
     d.total = d.ages[d.ages.length - 1].y1;
   });
 
-  const width = 960,
+  var width = 960,
     height = 500,
     margins = {top: 50, right: 50, bottom: 50, left: 50},
     id = "test-chart",
@@ -31,7 +25,8 @@ import {
     showLegend = true,
     showXAxis = true,
     showYAxis = true,
-    brushHeight = 200,
+    showXGrid = true,
+    showYGrid = true,
     chartSeries = [
       {
         field: 'Under 5 Years',
@@ -63,83 +58,85 @@ import {
       },
 
     ],
-    x = (d) => {
+    x = function(d) {
       return d.State;
     },
     xOrient = 'bottom',
     xTickOrient = 'bottom',
-    xDomain = generalChartData.map((d) => { return d.State; }),
+    xDomain = generalChartData.map(function(d) { return d.State; }),
     xRangeRoundBands = {interval: [0, width - margins.left - margins.right], padding: .1},
     xScale = 'ordinal',
     xAxisClassName = 'x-axis',
     xLabel = "Age",
-    y = (d) => {
+    xLabelPosition = 'bottom',
+    xTickPadding = 3,
+    xInnerTickSize = 6,
+    xOuterTickSize = 6,
+    y = function(d) {
       return +d;
     },
     yOrient = 'left',
     yTickOrient = 'left',
     yRange = [height - margins.top - margins.bottom, 0],
-    yBrushRange = [brushHeight - margins.top - margins.bottom, 0],
     yDomain = [0, d3.max(generalChartData, function(d) { return d.total; })],
     yScale = 'linear',
     yAxisClassName = 'y-axis',
     yLabel = "Population",
-    yTickFormat = d3.format(".2s");
+    yTickFormat = d3.format(".2s")
+    yLabelPosition = 'left',
+    yTickPadding = 4,
+    yInnerTickSize = 6,
+    yOuterTickSize = 6,
+    brushHeight = 200,
+    yBrushRange = [brushHeight - margins.top - margins.bottom, 0];
+
 
   React.render(
-      <BarStackBrush
-        title= {title}
-        data= {generalChartData}
-        width= {width}
-        height= {height}
-        id= {id}
-        margins= {margins}
-        svgClassName= {svgClassName}
-        labelOffset = {30}
-        titleClassName= {titleClassName}
-        yAxisClassName= {yAxisClassName}
-        xAxisClassName= {xAxisClassName}
-        legendClassName= {legendClassName}
-        legendPosition= 'right'
-        categoricalColors= {d3.scale.category10()}
-        chartSeries = {chartSeries}
-        lineClass = 'test-line-class'
-        barClass= 'test-bar-class'
-        scatterClass = 'test-line-dot-class'
-        gridAxisClassName = 'grid-axis-class'
-        showScatter = {true}
-        showLegend= {showLegend}
-        showXAxis= {showXAxis}
-        showYAxis= {showYAxis}
-        showTooltip= {true}
-        brushHeight= {brushHeight}
-        yBrushRange= {yBrushRange}
-        x= {x}
-        showXGrid= {false}
-        xDomain= {xDomain}
-        xRangeRoundBands= {xRangeRoundBands}
-        xScale= {xScale}
-        xOrient= {xOrient}
-        xTickOrient= {xTickOrient}
-        xTickPadding = {3}
-        xInnerTickSize = {6}
-        xOuterTickSize = {6}
-        xLabel = {xLabel}
-        xLabelPosition = 'bottom'
-        y= {y}
-        showYGrid= {true}
-        yOrient= {yOrient}
-        yRange= {yRange}
-        yDomain= {yDomain}
-        yScale= {yScale}
-        yTickOrient= {yTickOrient}
-        yTickPadding = {4}
-        yInnerTickSize = {6}
-        yOuterTickSize = {6}
-        yTickFormat= {yTickFormat}
-        yLabel = {yLabel}
-        yLabelPosition = 'left'
-      />
+    <BarStackBrush
+      title= {title}
+      data= {generalChartData}
+      width= {width}
+      height= {height}
+      id= {id}
+      margins= {margins}
+      svgClassName= {svgClassName}
+      titleClassName= {titleClassName}
+      yAxisClassName= {yAxisClassName}
+      xAxisClassName= {xAxisClassName}
+      legendClassName= {legendClassName}
+      categoricalColors= {d3.scale.category10()}
+      chartSeries = {chartSeries}
+      showLegend= {showLegend}
+      showXAxis= {showXAxis}
+      showYAxis= {showYAxis}
+      x= {x}
+      showXGrid= {showXGrid}
+      xDomain= {xDomain}
+      xRangeRoundBands= {xRangeRoundBands}
+      xScale= {xScale}
+      xOrient= {xOrient}
+      xTickOrient= {xTickOrient}
+      xTickPadding = {xTickPadding}
+      xInnerTickSize = {xInnerTickSize}
+      xOuterTickSize = {xOuterTickSize}
+      xLabel = {xLabel}
+      xLabelPosition = {xLabelPosition}
+      y= {y}
+      showYGrid= {showYGrid}
+      yOrient= {yOrient}
+      yRange= {yRange}
+      yDomain= {yDomain}
+      yScale= {yScale}
+      yTickOrient= {yTickOrient}
+      yTickPadding = {yTickPadding}
+      yInnerTickSize = {yInnerTickSize}
+      yOuterTickSize = {yOuterTickSize}
+      yTickFormat= {yTickFormat}
+      yLabel = {yLabel}
+      yLabelPosition = {yLabelPosition}
+      brushHeight= {brushHeight}
+      yBrushRange= {yBrushRange}
+    />
     , document.getElementById('data_brush_bar_stack')
   )
 })()

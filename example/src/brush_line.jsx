@@ -1,29 +1,25 @@
 "use strict";
 
-import {
-  default as React,
-  Component,
-} from 'react';
+var React = require('react');
+var LineBrush = require('../../lib').LineBrush;
 
-import {
-  LineBrush as LineBrush
-} from '../../index';
-
-(() => {
+(function() {
 
   var generalChartData = require('json!./data/user.json');
 
-  const width = 960,
+  var width = 960,
     height = 500,
     margins = {top: 20, right: 50, bottom: 30, left: 50},
     id = "test-chart",
-    title = "Simple Line Chart With Brush",
+    title = "Simple Line Chart",
     svgClassName = "test-chart-class",
     titleClassName = "test-chart-title-class",
+    lineClassName = 'test-line-class',
+    scatterClassName = 'test-line-dot-class',
     showLegend = true,
     showXAxis = true,
     showYAxis = true,
-    brushHeight = 200,
+    showScatter = true,
     chartSeries = [
       {
         field: 'age',
@@ -31,7 +27,7 @@ import {
         color: '#ff7f0e'
       }
     ],
-    x = (d) => {
+    x = function(d) {
       return d.index;
     },
     xOrient = 'bottom',
@@ -40,18 +36,22 @@ import {
     xRange = [0, width - margins.left - margins.right],
     xScale = 'linear',
     xAxisClassName = 'x-axis',
+    xLabelPosition = 'bottom',
     xLabel = "Index",
-    y = (d) => {
+    y = function(d) {
       return d;
     },
     yOrient = 'right',
     yTickOrient = 'left',
-    yDomain = d3.extent(generalChartData, (d) => {return d.age;}),
+    yDomain = d3.extent(generalChartData, function(d) {return d.age;}),
     yRange = [height - margins.top - margins.bottom, 0],
-    yBrushRange = [brushHeight - margins.top - margins.bottom, 0],
     yScale = 'linear',
     yAxisClassName = 'y-axis',
-    yLabel = "Age";
+    yLabel = "Age",
+    yLabelPosition = 'right',
+    brushHeight = 200,
+    yBrushRange = [brushHeight - margins.top - margins.bottom, 0];
+
 
   React.render(
     <LineBrush
@@ -66,15 +66,12 @@ import {
       yAxisClassName= {yAxisClassName}
       xAxisClassName= {xAxisClassName}
       chartSeries= {chartSeries}
-      lineClass = 'test-line-class'
-      scatterClass = 'test-line-dot-class'
-      showScatter = {true}
+      lineClassName = {lineClassName}
+      scatterClassName = {scatterClassName}
+      showScatter = {showScatter}
       showLegend= {showLegend}
       showXAxis= {showXAxis}
       showYAxis= {showYAxis}
-      showTooltip= {true}
-      brushHeight= {brushHeight}
-      yBrushRange= {yBrushRange}
       x= {x}
       xDomain= {xDomain}
       xRange= {xRange}
@@ -82,7 +79,7 @@ import {
       xOrient= {xOrient}
       xTickOrient= {xTickOrient}
       xLabel = {xLabel}
-      xLabelPosition = 'bottom'
+      xLabelPosition = {xLabelPosition}
       y= {y}
       yOrient= {yOrient}
       yDomain= {yDomain}
@@ -90,7 +87,9 @@ import {
       yScale= {yScale}
       yTickOrient= {yTickOrient}
       yLabel = {yLabel}
-      yLabelPosition = 'right'
+      yLabelPosition = {yLabelPosition}
+      brushHeight= {brushHeight}
+      yBrushRange= {yBrushRange}
     />
   , document.getElementById('data_brush_line')
   )

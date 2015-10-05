@@ -1,87 +1,50 @@
-// ENV = 1 stands for production, ENV = 0 stands for development
-var ENV = !!(+process.env.NODE_ENV || 0);
-
-var brush_charts = [
-  "brush_bar",
-  "brush_bar_group",
-  "brush_bar_stack",
-  "brush_line",
-  "brush_line_multi",
-  "brush_scatter",
-  "brush_area_stack"
-]
-
-var prod_brush_link = brush_charts.map(function(d) {
-  return 'min/' + d + '.min'
-})
-
-var dev_brush_link = brush_charts.map(function(d) {
-  return 'origin/' + d
-})
-
 module.exports = [{
-  "layout": "./gallery.hbs",
-  "filename": "./example/gallery.html",
-  "data": {
-    "charts": brush_charts,
-    "link": ENV? prod_brush_link: dev_brush_link,
-    "mode": ENV,
-    "title": "React-d3-brush"
-  }
-},{
   "layout": "./charts.hbs",
-  "filename": "./example/brush_line.html",
+  "filename": "./brush_line.html",
   "data": {
     "title": "Brush Line Chart",
-    "type": "brush_line",
-    "prefix": ENV? 'min': 'origin'
+    "type": "brush_line"
   }
 },{
   "layout": "./charts.hbs",
-  "filename": "./example/brush_line_multi.html",
+  "filename": "./brush_line_multi.html",
   "data": {
     "title": "Brush Multipule Line Chart",
-    "type": "brush_line_multi",
-    "prefix": ENV? 'min': 'origin'
+    "type": "brush_line_multi"
   }
 },{
   "layout": "./charts.hbs",
-  "filename": "./example/brush_scatter.html",
+  "filename": "./brush_scatter.html",
   "data": {
     "title": "Brush Scatter Chart",
-    "type": "brush_scatter",
-    "prefix": ENV? 'min': 'origin'
+    "type": "brush_scatter"
   }
 },{
   "layout": "./charts.hbs",
-  "filename": "./example/brush_area_stack.html",
+  "filename": "./brush_area_stack.html",
   "data": {
     "title": "Brush Area Stack Chart",
-    "type": "brush_area_stack",
-    "prefix": ENV? 'min': 'origin'
+    "type": "brush_area_stack"
   }
 },{
   "layout": "./charts.hbs",
-  "filename": "./example/brush_bar.html",
+  "filename": "./brush_bar.html",
   "data": {
     "title": "Brush Bar Chart",
-    "type": "brush_bar",
-    "prefix": ENV? 'min': 'origin'
+    "type": "brush_bar"
   }
 },{
   "layout": "./charts.hbs",
-  "filename": "./example/brush_bar_stack.html",
+  "filename": "./brush_bar_stack.html",
   "data": {
     "title": "Brush Bar Stack Chart",
-    "type": "brush_bar_stack",
-    "prefix": ENV? 'min': 'origin'
+    "type": "brush_bar_stack"
   }
 },{
   "layout": "./charts.hbs",
-  "filename": "./example/brush_bar_group.html",
+  "filename": "./brush_bar_group.html",
   "data": {
     "title": "Brush Bar Group Chart",
-    "type": "brush_bar_group",
-    "prefix": ENV? 'min': 'origin'
+    "type": "brush_bar_group"
   }
 }]

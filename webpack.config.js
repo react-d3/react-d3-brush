@@ -6,16 +6,10 @@ var path            = require('path'),
 
 var js_root = './example/src';
 var js_dist = path.join(__dirname, './example/dist/origin');
-var js_dist_min = path.join(__dirname, './example/dist/min');
 
-// 0 stands for development, 1 stands for production
-// for development mode: NODE_ENV=0 webpack
-// for production mode: NODE_ENV=1 webpack
-var ENV = !!(+process.env.NODE_ENV || 0);
 
 module.exports = [{
   name: 'chartComponent',
-  devtool: ENV ? "source-map": '',
   entry: {
     brush_line: js_root + '/brush_line.jsx',
     brush_line_multi: js_root + '/brush_line_multi.jsx',
@@ -27,15 +21,15 @@ module.exports = [{
   },
 
   output: {
-    path: ENV ? js_dist_min  : js_dist,
-    filename: ENV ? '[name].min.js': '[name].js'
+    path: js_dist,
+    filename: '[name].js'
   },
 
   module: {
     loaders: [
       {
         test: [/\.jsx$/],
-        loaders: ["react-hot", "babel-loader?stage=0"],
+        loaders: ["jsx-loader?insertPragma=React.DOM&harmony"],
       },
       {
         test: /\.css$/,
@@ -48,12 +42,7 @@ module.exports = [{
     extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx']
   },
 
-  plugins: ENV ? [
-    new webpack.optimize.UglifyJsPlugin({minimize: true}),
-    new webpack.ProvidePlugin({
-      'd3': 'd3'
-    })
-  ]: [
+  plugins: [
     new webpack.ProvidePlugin({
       'd3': 'd3'
     })

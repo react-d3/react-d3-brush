@@ -1,5 +1,7 @@
 # react-d3-brush
 
+[![Dependency Status](https://gemnasium.com/react-d3/react-d3-brush.svg)](https://gemnasium.com/react-d3/react-d3-brush)
+
 `react-d3` brush implementation.
 
 ## Install
