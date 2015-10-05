@@ -64,9 +64,7 @@ var LineBrush = require('../../lib').LineBrush;
     showYGrid= true,
     xLabelPosition = 'bottom',
     yLabelPosition = 'left',
-    brushHeight = 200,
-    yBrushRange = [brushHeight - margins.top - margins.bottom, 0];
-
+    brushHeight = 200;
 
   React.render(
     <LineBrush
@@ -107,7 +105,6 @@ var LineBrush = require('../../lib').LineBrush;
       yLabel = {yLabel}
       yLabelPosition = {yLabelPosition}
       brushHeight= {brushHeight}
-      yBrushRange= {yBrushRange}
     />
   , document.getElementById('data_brush_line_multi')
   )

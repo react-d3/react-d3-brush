@@ -63,6 +63,8 @@ export default class Brush extends Component {
       margins
     } = this.props;
 
+    var brushMargins = {top: 10, right: margins.right, bottom: 10, left: margins.left};
+
     var brush = d3.svg.brush()
       .x(xBrushScaleSet)
       .on("brush", () => {
@@ -90,7 +92,7 @@ export default class Brush extends Component {
       .call(brush)
     .selectAll('rect')
       .attr("y", -6)
-      .attr("height", brushHeight - margins.bottom - margins.top + 7)
+      .attr("height", brushHeight - brushMargins.bottom - brushMargins.top + 7)
       .style('stroke', '#FFF')
       .style('fill-opacity', .125)
       .style('shape-rendering', 'crispEdges');
@@ -129,9 +131,7 @@ export default class Brush extends Component {
 
     const {
       brushHeight,
-      yBrushRange,
       brushType,
-      margins,
       chartSeriesData
     } = this.props;
 
@@ -140,8 +140,12 @@ export default class Brush extends Component {
       yRange,
       showYAxis,
       yLabel,
+      margins,
       ...otherProps
     } = this.props;
+
+    var brushMargins = {top: 30, right: margins.right, bottom: 30, left: margins.left};
+    var yBrushRange = [brushHeight - brushMargins.top - brushMargins.bottom, 0]
 
     if(xBrushScaleSet && yBrushScaleSet) {
       if(brushType === 'line') {
@@ -199,11 +203,11 @@ export default class Brush extends Component {
     }
 
     return (
-      <Svg height={brushHeight} margins={margins}>
+      <Svg height={brushHeight} margins={brushMargins}>
         <g ref="brushComponentGroup">
           {brushChart}
-          <Xaxis height={brushHeight} {...otherProps} setScale={this.setBrushScale} />
-          <Yaxis height={brushHeight} yRange={yBrushRange} showYAxis={false} yLabel={false} {...otherProps} setScale={this.setBrushScale}/>
+          <Xaxis height={brushHeight} {...otherProps} setScale={this.setBrushScale} margins={brushMargins}/>
+          <Yaxis height={brushHeight} yRange={yBrushRange} showYAxis={false} yLabel={false} {...otherProps} setScale={this.setBrushScale} margins={brushMargins}/>
           <g ref="brushRect" className="react-d3-basic__brush__rect"></g>
         </g>
       </Svg>

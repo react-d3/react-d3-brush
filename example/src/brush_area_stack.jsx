@@ -60,8 +60,7 @@ var AreaStackBrush = require('../../lib').AreaStackBrush;
     yRange = [height - margins.top - margins.bottom, 0],
     yScale = 'linear',
     yAxisClassName = 'y-axis',
-    brushHeight = 200,
-    yBrushRange = [brushHeight - margins.top - margins.bottom, 0];
+    brushHeight = 200;
 
 
   React.render(
@@ -97,7 +96,6 @@ var AreaStackBrush = require('../../lib').AreaStackBrush;
       yTickOrient= {yTickOrient}
       yTickFormat= {formatPercent}
       brushHeight= {brushHeight}
-      yBrushRange= {yBrushRange}
     />
   , document.getElementById('data_brush_area_stack')
   )

@@ -65,8 +65,8 @@ var ScatterBrush = require('../../lib').ScatterBrush;
     yLabel = "Temperature (ºF)",
     yLabelPosition = 'left',
     scatterClassName = 'test-line-dot-class',
-    brushHeight = 200,
-    yBrushRange = [brushHeight - margins.top - margins.bottom, 0];
+    brushHeight = 200;
+
 
   React.render(
     <ScatterBrush
@@ -105,7 +105,6 @@ var ScatterBrush = require('../../lib').ScatterBrush;
       yLabel = {yLabel}
       yLabelPosition = {yLabelPosition}
       brushHeight= {brushHeight}
-      yBrushRange= {yBrushRange}
     />
   , document.getElementById('data_brush_scatter')
   )

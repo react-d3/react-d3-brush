@@ -87,9 +87,7 @@ var BarStackBrush = require('../../lib').BarStackBrush;
     yTickPadding = 4,
     yInnerTickSize = 6,
     yOuterTickSize = 6,
-    brushHeight = 200,
-    yBrushRange = [brushHeight - margins.top - margins.bottom, 0];
-
+    brushHeight = 200;
 
   React.render(
     <BarStackBrush
@@ -135,7 +133,6 @@ var BarStackBrush = require('../../lib').BarStackBrush;
       yLabel = {yLabel}
       yLabelPosition = {yLabelPosition}
       brushHeight= {brushHeight}
-      yBrushRange= {yBrushRange}
     />
     , document.getElementById('data_brush_bar_stack')
   )

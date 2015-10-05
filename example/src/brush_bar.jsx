@@ -47,8 +47,7 @@ var BarBrush = require('../../lib').BarBrush;
     yLabel = "Frequency",
     yTicks = [10, "%"],
     yLabelPosition = 'left',
-    brushHeight = 200,
-    yBrushRange = [brushHeight - margins.top - margins.bottom, 0];
+    brushHeight = 200;
 
 
   React.render(
@@ -87,7 +86,6 @@ var BarBrush = require('../../lib').BarBrush;
       yLabel = {yLabel}
       yLabelPosition = {yLabelPosition}
       brushHeight= {brushHeight}
-      yBrushRange= {yBrushRange}
     />
   , document.getElementById('data_brush_bar')
   )

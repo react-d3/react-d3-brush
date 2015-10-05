@@ -80,9 +80,7 @@ var BarGroupBrush = require('../../lib').BarGroupBrush;
     yTickFormat = d3.format(".2s"),
     yLabelPosition = 'left',
     categoricalColors = d3.scale.category10(),
-    brushHeight = 200,
-    yBrushRange = [brushHeight - margins.top - margins.bottom, 0];
-
+    brushHeight = 200;
 
   React.render(
     <BarGroupBrush
@@ -122,7 +120,6 @@ var BarGroupBrush = require('../../lib').BarGroupBrush;
       yLabel = {yLabel}
       yLabelPosition = {yLabelPosition}
       brushHeight= {brushHeight}
-      yBrushRange= {yBrushRange}
     />
   , document.getElementById('data_brush_bar_group')
   )
