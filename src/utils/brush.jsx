@@ -22,8 +22,6 @@ import {
   AreaStack as AreaStack
 } from 'react-d3-basic';
 
-require('../../css/brush.css');
-
 export default class Brush extends Component {
   constructor(props) {
     super(props);
@@ -93,6 +91,9 @@ export default class Brush extends Component {
     .selectAll('rect')
       .attr("y", -6)
       .attr("height", brushHeight - margins.bottom - margins.top + 7)
+      .style('stroke', '#FFF')
+      .style('fill-opacity', .125)
+      .style('shape-rendering', 'crispEdges');
   }
 
   shouldComponentUpdate(nextProps, nextState) {
