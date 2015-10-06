@@ -10,6 +10,10 @@
 npm install --save react-d3-brush
 ```
 
+## LIVE DEMO
+
+http://reactd3.org/docs/brush
+
 ## Support Brush Component
 
 - Line Chart: export as `LineBrush`
