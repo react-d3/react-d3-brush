@@ -1,7 +1,7 @@
 "use strict";
 
-
 var React = require('react');
+var ReactDOM = require('react-dom');
 var ScatterBrush = require('../../lib').ScatterBrush;
 
 (function() {
@@ -68,7 +68,7 @@ var ScatterBrush = require('../../lib').ScatterBrush;
     brushHeight = 200;
 
 
-  React.render(
+  ReactDOM.render(
     <ScatterBrush
       title= {title}
       data= {generalChartData}

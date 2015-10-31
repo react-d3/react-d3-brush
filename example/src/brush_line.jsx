@@ -1,6 +1,7 @@
 "use strict";
 
 var React = require('react');
+var ReactDOM = require('react-dom');
 var LineBrush = require('../../lib').LineBrush;
 
 (function() {
@@ -51,7 +52,7 @@ var LineBrush = require('../../lib').LineBrush;
     yLabelPosition = 'right',
     brushHeight = 200;
 
-  React.render(
+  ReactDOM.render(
     <LineBrush
       title= {title}
       data= {generalChartData}

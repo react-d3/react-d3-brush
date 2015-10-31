@@ -1,6 +1,7 @@
 "use strict";
 
 var React = require('react');
+var ReactDOM = require('react-dom');
 var BarGroupBrush = require('../../lib').BarGroupBrush;
 
 (function() {
@@ -82,7 +83,7 @@ var BarGroupBrush = require('../../lib').BarGroupBrush;
     categoricalColors = d3.scale.category10(),
     brushHeight = 200;
 
-  React.render(
+  ReactDOM.render(
     <BarGroupBrush
       title= {title}
       data= {generalChartData}

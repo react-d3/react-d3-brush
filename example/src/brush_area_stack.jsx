@@ -1,6 +1,7 @@
 "use strict";
 
 var React = require('react');
+var ReactDOM = require('react-dom');
 var AreaStackBrush = require('../../lib').AreaStackBrush;
 
 (function() {
@@ -63,7 +64,7 @@ var AreaStackBrush = require('../../lib').AreaStackBrush;
     brushHeight = 200;
 
 
-  React.render(
+  ReactDOM.render(
     <AreaStackBrush
       title= {title}
       data= {generalChartData}

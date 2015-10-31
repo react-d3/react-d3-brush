@@ -1,6 +1,7 @@
 "use strict";
 
 var React = require('react');
+var ReactDOM = require('react-dom');
 var BarBrush = require('../../lib').BarBrush;
 
 (function() {
@@ -50,7 +51,7 @@ var BarBrush = require('../../lib').BarBrush;
     brushHeight = 200;
 
 
-  React.render(
+  ReactDOM.render(
     <BarBrush
       title= {title}
       data= {generalChartData}

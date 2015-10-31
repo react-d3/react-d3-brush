@@ -7,9 +7,14 @@ import {
 } from 'react';
 
 import {
+  default as ReactDOM
+} from 'react-dom';
+
+import {
   Svg as Svg,
   Xaxis as Xaxis,
   Yaxis as Yaxis,
+  scale as scale
 } from 'react-d3-core';
 
 import {
@@ -26,44 +31,71 @@ export default class Brush extends Component {
   constructor(props) {
     super(props);
 
-    this.setBrushScale = this.setBrushScale.bind(this)
+    var brushMargins = {top: 30, right: props.margins.right, bottom: 30, left: props.margins.left}
+    var yBrushRange = [props.brushHeight - brushMargins.top - brushMargins.bottom, 0]
+    this.yBrushRange = yBrushRange;
+    this.brushMargins = brushMargins;
 
     this.state = {
-      xBrushScaleSet: null,
-      yBrushScaleSet: null,
+      xBrushScaleSet: this._mkXScale(),
+      yBrushScaleSet: this._mkYScale(),
       brushSet: false
     }
   }
 
-  setBrushScale(axis, func) {
-    if(axis === 'x'){
-      // set x scale
-      this.setState({
-        xBrushScaleSet: func
-      })
-    }else if(axis === 'y'){
-      // set y scale
-      this.setState({
-        yBrushScaleSet: func
-      })
-    }
+  static defaultProps = {
   }
 
-  _mkContent (nextState) {
+  _mkXScale() {
+    const {
+      xScale,
+      xRange,
+      xDomain,
+      xRangeRoundBands,
+    } = this.props;
+
+    var newXScale = {
+      scale: xScale,
+      range: xRange,
+      domain: xDomain,
+      rangeRoundBands: xRangeRoundBands
+    }
+
+    return scale(newXScale);
+  }
+
+  _mkYScale() {
+    const {
+      yScale,
+      yDomain,
+      yRangeRoundBands,
+    } = this.props;
+
+    var newYScale = {
+      scale: yScale,
+      range: this.yBrushRange,
+      domain: yDomain,
+      rangeRoundBands: yRangeRoundBands
+    }
+
+    return scale(newYScale);
+  }
+
+  componentDidMount () {
     const {
       xBrushScaleSet,
-      yBrushScaleSet,
-      brushSet
-    } = nextState;
+      yBrushScaleSet
+    } = this.state;
 
     const {
       brushHeight,
       brushType,
       setDomain,
-      margins
+      margins,
+      width
     } = this.props;
 
-    var brushMargins = {top: 10, right: margins.right, bottom: 10, left: margins.left};
+    var brushMargins = this.brushMargins;
 
     var brush = d3.svg.brush()
       .x(xBrushScaleSet)
@@ -88,7 +120,7 @@ export default class Brush extends Component {
         }
       });
 
-    d3.select(React.findDOMNode(this.refs.brushRect))
+    d3.select(ReactDOM.findDOMNode(this.refs.brushRect))
       .call(brush)
     .selectAll('rect')
       .attr("y", -6)
@@ -96,37 +128,28 @@ export default class Brush extends Component {
       .style('stroke', '#FFF')
       .style('fill-opacity', .125)
       .style('shape-rendering', 'crispEdges');
+
+    this.setState({
+      brushSet: true
+    })
   }
 
   shouldComponentUpdate(nextProps, nextState) {
     const {
-      xBrushScaleSet,
-      yBrushScaleSet,
       brushSet
     } = nextState;
 
-    if(xBrushScaleSet && yBrushScaleSet && brushSet) {
+    if(brushSet) {
       return false;
+    }else {
+      return true;
     }
-
-    if(xBrushScaleSet && yBrushScaleSet) {
-      // x brush scale set is set
-      // y brush scale set is set
-      // and the brush is not set
-      this._mkContent(nextState);
-
-      this.setState({
-        brushSet: true
-      });
-    }
-
-    return true;
   }
 
   render() {
     const {
       xBrushScaleSet,
-      yBrushScaleSet,
+      yBrushScaleSet
     } = this.state;
 
     const {
@@ -144,8 +167,7 @@ export default class Brush extends Component {
       ...otherProps
     } = this.props;
 
-    var brushMargins = {top: 30, right: margins.right, bottom: 30, left: margins.left};
-    var yBrushRange = [brushHeight - brushMargins.top - brushMargins.bottom, 0]
+    var brushMargins = this.brushMargins;
 
     if(xBrushScaleSet && yBrushScaleSet) {
       if(brushType === 'line') {
@@ -206,8 +228,8 @@ export default class Brush extends Component {
       <Svg height={brushHeight} margins={brushMargins}>
         <g ref="brushComponentGroup">
           {brushChart}
-          <Xaxis height={brushHeight} {...otherProps} setScale={this.setBrushScale} margins={brushMargins}/>
-          <Yaxis height={brushHeight} yRange={yBrushRange} showYAxis={false} yLabel={false} {...otherProps} setScale={this.setBrushScale} margins={brushMargins}/>
+          <Xaxis height={brushHeight} {...otherProps} margins={brushMargins}/>
+          <Yaxis height={brushHeight} yRange={this.yBrushRange} showYAxis={false} yLabel={false} {...otherProps} margins={brushMargins}/>
           <g ref="brushRect" className="react-d3-basic__brush__rect"></g>
         </g>
       </Svg>

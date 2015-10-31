@@ -1,6 +1,7 @@
 "use strict";
 
 var React = require('react');
+var ReactDOM = require('react-dom');
 var BarStackBrush = require('../../lib').BarStackBrush;
 
 (function() {
@@ -82,14 +83,14 @@ var BarStackBrush = require('../../lib').BarStackBrush;
     yScale = 'linear',
     yAxisClassName = 'y-axis',
     yLabel = "Population",
-    yTickFormat = d3.format(".2s")
+    yTickFormat = d3.format(".2s"),
     yLabelPosition = 'left',
     yTickPadding = 4,
     yInnerTickSize = 6,
     yOuterTickSize = 6,
     brushHeight = 200;
 
-  React.render(
+  ReactDOM.render(
     <BarStackBrush
       title= {title}
       data= {generalChartData}
