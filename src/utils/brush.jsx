@@ -27,14 +27,13 @@ import {
   AreaStack as AreaStack
 } from 'react-d3-basic';
 
+import {
+  default as CommonProps,
+} from '../commonProps';
+
 export default class Brush extends Component {
   constructor(props) {
     super(props);
-
-    var brushMargins = {top: 30, right: props.margins.right, bottom: 30, left: props.margins.left}
-    var yBrushRange = [props.brushHeight - brushMargins.top - brushMargins.bottom, 0]
-    this.yBrushRange = yBrushRange;
-    this.brushMargins = brushMargins;
 
     this.state = {
       xBrushScaleSet: this._mkXScale(),
@@ -43,8 +42,7 @@ export default class Brush extends Component {
     }
   }
 
-  static defaultProps = {
-  }
+  static defaultProps = CommonProps
 
   _mkXScale() {
     const {
@@ -69,11 +67,12 @@ export default class Brush extends Component {
       yScale,
       yDomain,
       yRangeRoundBands,
+      yBrushRange
     } = this.props;
 
     var newYScale = {
       scale: yScale,
-      range: this.yBrushRange,
+      range: yBrushRange,
       domain: yDomain,
       rangeRoundBands: yRangeRoundBands
     }
@@ -92,10 +91,9 @@ export default class Brush extends Component {
       brushType,
       setDomain,
       margins,
-      width
+      width,
+      brushMargins
     } = this.props;
-
-    var brushMargins = this.brushMargins;
 
     var brush = d3.svg.brush()
       .x(xBrushScaleSet)
@@ -155,6 +153,8 @@ export default class Brush extends Component {
     const {
       brushHeight,
       brushType,
+      brushMargins,
+      yBrushRange,
       chartSeriesData
     } = this.props;
 
@@ -166,8 +166,6 @@ export default class Brush extends Component {
       margins,
       ...otherProps
     } = this.props;
-
-    var brushMargins = this.brushMargins;
 
     if(xBrushScaleSet && yBrushScaleSet) {
       if(brushType === 'line') {
@@ -202,25 +200,7 @@ export default class Brush extends Component {
           return <BarGroup margins={brushMargins} x1={x1} dataset={d} key={i} count={i} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps} />
         })
       }else if(brushType === 'bar_stack') {
-
-        var stackVal = chartSeriesData[0].data.map(d => {
-          return {name: d.x, y0: 0};
-        })
-
-        var brushChart = chartSeriesData.map((d, j) => {
-          var stackObj = {};
-
-          stackVal.forEach((dkey, i) => {
-
-            var prev = (j === 0)? 0: chartSeriesData[j - 1].data[i].y;
-            var newVal = dkey.y0 + prev;
-            stackVal[i].y0 = newVal;
-
-            stackObj[dkey.name]= {y: d.data[i].y, y0: newVal}
-          })
-
-          return <BarStack margins={brushMargins} stackVal={stackObj} dataset={d} key={j} count={j} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} {...otherProps}/>
-        })
+        var brushChart = <BarStack margins={brushMargins} height={brushHeight} yScaleSet={yBrushScaleSet} xScaleSet={xBrushScaleSet} dataset={chartSeriesData} {...otherProps} />
       }
     }
 
@@ -229,7 +209,7 @@ export default class Brush extends Component {
         <g ref="brushComponentGroup">
           {brushChart}
           <Xaxis height={brushHeight} {...otherProps} margins={brushMargins}/>
-          <Yaxis height={brushHeight} yRange={this.yBrushRange} showYAxis={false} yLabel={false} {...otherProps} margins={brushMargins}/>
+          <Yaxis height={brushHeight} yRange={yBrushRange} showYAxis={false} yLabel={false} {...otherProps} margins={brushMargins}/>
           <g ref="brushRect" className="react-d3-basic__brush__rect"></g>
         </g>
       </Svg>

@@ -6,10 +6,16 @@ import {
   PropTypes,
 } from 'react';
 
+import {
+  default as CommonProps,
+} from '../commonProps';
+
 export default class BrushFocus extends Component {
   constructor(props) {
     super(props);
   }
+
+  static defaultProps = CommonProps
 
   render() {
 

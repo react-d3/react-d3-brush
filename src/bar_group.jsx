@@ -31,6 +31,14 @@ import {
 export default class BarGroupBrush extends BrushSet {
   constructor(props) {
     super(props)
+
+    const xDomain = this.props.xDomain || this.mkXDomain();
+    const yDomain = this.props.yDomain || this.mkYDomain();
+
+    this.state = {
+      xDomainSet: xDomain,
+      yDomainSet: yDomain
+    };
   }
 
   render() {
@@ -41,7 +49,7 @@ export default class BarGroupBrush extends BrushSet {
     var chartSeriesData = series(this.props)
 
     var focus = <BrushFocus {...this.props} />
-    var brush = <Brush {...this.props} {...this.state} brushType="bar_group" chartSeriesData={chartSeriesData} setDomain={this.setDomain.bind(this)} />
+    var brush = <Brush xDomain= {this.setXDomain} yDomain= {this.setYDomain} {...this.props} {...this.state} brushType="bar_group" chartSeriesData={chartSeriesData} setDomain={this.setDomain.bind(this)} />
 
     return (
       <div>
