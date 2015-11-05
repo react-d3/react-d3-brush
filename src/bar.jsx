@@ -44,9 +44,9 @@ export default class BarBrush extends BrushSet {
     const yDomain = this.mkYDomain();
 
     this.state = {
-      xRange: [0, width - margins.left - margins.right],
-      yRange: [height - margins.top - margins.bottom, 0],
-      xRangeRoundBands: {interval: [0, width - margins.left - margins.right], padding: .1},
+      xRange: this.props.xRange || [0, width - margins.left - margins.right],
+      yRange: this.props.yRange || [height - margins.top - margins.bottom, 0],
+      xRangeRoundBands: this.props.xRangeRoundBands || {interval: [0, width - margins.left - margins.right], padding: .1},
       brushMargins: brushMargins,
       yBrushRange: yBrushRange,
       xDomainSet: xDomain,
