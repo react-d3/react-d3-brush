@@ -11,20 +11,20 @@ import {
 } from 'react-dom';
 
 import {
-  Svg as Svg,
-  Xaxis as Xaxis,
-  Yaxis as Yaxis,
-  scale as scale
+  Svg,
+  Xaxis,
+  Yaxis,
+  scale
 } from 'react-d3-core';
 
 import {
-  Bar as Bar,
-  BarStack as BarStack,
-  BarGroup as BarGroup,
-  Line as Line,
+  Bar,
+  BarStack,
+  BarGroup,
+  Line,
   Area as AreaSimple,
-  Scatter as Scatter,
-  AreaStack as AreaStack
+  Scatter,
+  AreaStack
 } from 'react-d3-basic';
 
 import {

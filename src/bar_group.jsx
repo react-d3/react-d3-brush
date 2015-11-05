@@ -11,8 +11,8 @@ import {
 } from 'react-d3-core';
 
 import {
-  BarGroupChart as BarGroupChart,
-  series as series
+  BarGroupChart,
+  series
 } from 'react-d3-basic';
 
 import {
@@ -32,8 +32,8 @@ export default class BarGroupBrush extends BrushSet {
   constructor(props) {
     super(props)
 
-    const xDomain = this.props.xDomain || this.mkXDomain();
-    const yDomain = this.props.yDomain || this.mkYDomain();
+    const xDomain = this.mkXDomain();
+    const yDomain = this.mkYDomain();
 
     this.state = {
       xDomainSet: xDomain,

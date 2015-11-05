@@ -7,12 +7,12 @@ import {
 } from 'react';
 
 import {
-  Chart as Chart,
+  Chart,
 } from 'react-d3-core';
 
 import {
-  BarStackChart as BarStackChart,
-  series as series
+  BarStackChart,
+  series
 } from 'react-d3-basic';
 
 import {
@@ -32,8 +32,8 @@ export default class BarStackBrush extends BrushSet {
   constructor(props) {
     super(props)
 
-    const xDomain = this.props.xDomain || this.mkXDomain();
-    const yDomain = this.props.yDomain || this.mkYDomain(true);
+    const xDomain = this.mkXDomain();
+    const yDomain = this.mkYDomain(true);
 
     this.state = {
       xDomainSet: xDomain,
