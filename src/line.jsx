@@ -38,8 +38,8 @@ export default class LineBrush extends BrushSet {
       height
     } = this.props;
 
-    const brushMargins = {top: 30, right: margins.right, bottom: 30, left: margins.left}
-    const yBrushRange = [brushHeight - brushMargins.top - brushMargins.bottom, 0]
+    const brushMargins = this.props.brushMargins || {top: 30, right: margins.right, bottom: 30, left: margins.left}
+    const yBrushRange = this.props.yBrushRange || [brushHeight - brushMargins.top - brushMargins.bottom, 0]
     const xDomain = this.mkXDomain();
     const yDomain = this.mkYDomain();
 
