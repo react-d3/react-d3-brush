@@ -23,6 +23,25 @@ export default class BrushSet extends Component {
 
   static defaultProps = CommonProps
 
+  static propTypes = {
+    data: PropTypes.array.isRequired,
+    chartSeries: PropTypes.array.isRequired,
+    width: PropTypes.number,
+    height: PropTypes.number,
+    x: PropTypes.func,
+    xDomain: PropTypes.array,
+    xRange: PropTypes.array,
+    xScale: PropTypes.string,
+    xRangeRoundBands: PropTypes.object,
+    y: PropTypes.func,
+    yDomain: PropTypes.array,
+    yRange: PropTypes.array,
+    yScale: PropTypes.string,
+    brushMargins: PropTypes.object,
+    brushHeight: PropTypes.number,
+    yBrushRange: PropTypes.array
+  }
+
   mkXDomain() {
     return this.setXDomain = xDomainCount(this.props);
   }
