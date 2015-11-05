@@ -21,6 +21,9 @@ var LineBrush = require('../../lib').LineBrush;
 
   ReactDOM.render(
     <LineBrush
+      width= {600}
+      height= {180}
+      brushHeight= {100}
       data= {generalChartData}
       chartSeries= {chartSeries}
       x= {x}
