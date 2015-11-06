@@ -208,7 +208,7 @@ export default class Brush extends Component {
       <Svg height={brushHeight} margins={brushMargins}>
         <g ref="brushComponentGroup">
           {brushChart}
-          <Xaxis height={brushHeight} {...otherProps} margins={brushMargins}/>
+          <Xaxis height={brushHeight} {...otherProps} margins={brushMargins} xLabel={false} />
           <Yaxis height={brushHeight} yRange={yBrushRange} showYAxis={false} yLabel={false} {...otherProps} margins={brushMargins}/>
           <g ref="brushRect" className="react-d3-basic__brush__rect"></g>
         </g>

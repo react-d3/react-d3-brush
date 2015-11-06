@@ -22,11 +22,12 @@ var LineBrush = require('../../lib').LineBrush;
   ReactDOM.render(
     <LineBrush
       width= {600}
-      height= {180}
+      height= {400}
       brushHeight= {100}
       data= {generalChartData}
       chartSeries= {chartSeries}
       x= {x}
+      xLabel= {"test"}
     />
   , document.getElementById('data_brush_line')
   )
