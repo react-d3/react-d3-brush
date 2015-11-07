@@ -50,7 +50,7 @@ var LineBrush = require('react-d3-brush').LineBrush;
 
 #### In HTML (without build tools)
 
-Clone code `react-d3-basic.js` or minify js `react-d3-basic.min.js` and include the script in your HTML.
+Clone code `react-d3-brush.js` or minify js `react-d3-brush.min.js` and include the script in your HTML.
 
 You'll also need `react`, `react-dom`, `d3`
 
