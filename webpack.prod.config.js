@@ -49,19 +49,5 @@ module.exports = [{
     'react': 'React',
     'react-dom': 'ReactDOM',
     'd3': 'd3'
-  },
-
-  plugins: ENV ? [
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
-      mangle: false
-    }),
-    new webpack.ProvidePlugin({
-      'd3': 'd3'
-    })
-  ]: [
-    new webpack.ProvidePlugin({
-      'd3': 'd3'
-    })
-  ]
+  }
 }];

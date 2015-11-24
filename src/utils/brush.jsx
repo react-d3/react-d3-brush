@@ -10,6 +10,8 @@ import {
   default as ReactDOM
 } from 'react-dom';
 
+import d3 from 'd3';
+
 import {
   Svg,
   Xaxis,
