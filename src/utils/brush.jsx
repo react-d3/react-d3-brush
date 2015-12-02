@@ -105,7 +105,8 @@ export default class Brush extends Component {
         if( brushType === 'line' ||
           brushType === 'scatter' ||
           brushType === 'area_stack') {
-          setDomain("x", newDomain);
+
+          if(newDomain.length) setDomain("x", newDomain);
         }else if( brushType === 'bar' ||
           brushType === 'bar_group' ||
           brushType === 'bar_stack'
@@ -116,7 +117,7 @@ export default class Brush extends Component {
                   (xBrushScaleSet(d) <= newDomain[1]);
               });
 
-          setDomain("x", selected);
+          if(selected.length) setDomain("x", selected);
         }
       });
 
