@@ -57,39 +57,39 @@ var ReactD3Brush =
 
 	var _line2 = _interopRequireDefault(_line);
 
-	var _area_stack = __webpack_require__(169);
+	var _area_stack = __webpack_require__(183);
 
 	var _area_stack2 = _interopRequireDefault(_area_stack);
 
-	var _scatter = __webpack_require__(170);
+	var _scatter = __webpack_require__(184);
 
 	var _scatter2 = _interopRequireDefault(_scatter);
 
-	var _bar = __webpack_require__(171);
+	var _bar = __webpack_require__(185);
 
 	var _bar2 = _interopRequireDefault(_bar);
 
-	var _bar_group = __webpack_require__(172);
+	var _bar_group = __webpack_require__(186);
 
 	var _bar_group2 = _interopRequireDefault(_bar_group);
 
-	var _bar_stack = __webpack_require__(173);
+	var _bar_stack = __webpack_require__(187);
 
 	var _bar_stack2 = _interopRequireDefault(_bar_stack);
 
 	// inherit
 
-	var _inheritIndex = __webpack_require__(165);
+	var _inheritIndex = __webpack_require__(179);
 
 	var _inheritIndex2 = _interopRequireDefault(_inheritIndex);
 
 	// utils
 
-	var _utilsBrush = __webpack_require__(167);
+	var _utilsBrush = __webpack_require__(181);
 
 	var _utilsBrush2 = _interopRequireDefault(_utilsBrush);
 
-	var _utilsBrush_focus = __webpack_require__(168);
+	var _utilsBrush_focus = __webpack_require__(182);
 
 	var _utilsBrush_focus2 = _interopRequireDefault(_utilsBrush_focus);
 
@@ -133,15 +133,15 @@ var ReactD3Brush =
 
 	var _reactD3Basic = __webpack_require__(82);
 
-	var _inheritIndex = __webpack_require__(165);
+	var _inheritIndex = __webpack_require__(179);
 
 	var _inheritIndex2 = _interopRequireDefault(_inheritIndex);
 
-	var _utilsBrush = __webpack_require__(167);
+	var _utilsBrush = __webpack_require__(181);
 
 	var _utilsBrush2 = _interopRequireDefault(_utilsBrush);
 
-	var _utilsBrush_focus = __webpack_require__(168);
+	var _utilsBrush_focus = __webpack_require__(182);
 
 	var _utilsBrush_focus2 = _interopRequireDefault(_utilsBrush_focus);
 
@@ -447,9 +447,9 @@ var ReactD3Brush =
 
 /***/ },
 /* 8 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -490,7 +490,6 @@ var ReactD3Brush =
 
 	  return func;
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
 /* 9 */
@@ -11668,9 +11667,9 @@ var ReactD3Brush =
 
 /***/ },
 /* 80 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -11695,13 +11694,12 @@ var ReactD3Brush =
 	    });
 	  }
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
 /* 81 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -11754,7 +11752,6 @@ var ReactD3Brush =
 	    return d3.extent([].concat.apply([], domainArr));
 	  }
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
 /* 82 */
@@ -11778,71 +11775,71 @@ var ReactD3Brush =
 
 	var _inheritXyPlot2 = _interopRequireDefault(_inheritXyPlot);
 
-	var _inheritPieLayout = __webpack_require__(85);
+	var _inheritPieLayout = __webpack_require__(162);
 
 	var _inheritPieLayout2 = _interopRequireDefault(_inheritPieLayout);
 
 	// Export basic component of charts
 
-	var _componentsLine = __webpack_require__(86);
+	var _componentsLine = __webpack_require__(163);
 
 	var _componentsLine2 = _interopRequireDefault(_componentsLine);
 
-	var _componentsArea = __webpack_require__(150);
+	var _componentsArea = __webpack_require__(164);
 
 	var _componentsArea2 = _interopRequireDefault(_componentsArea);
 
-	var _componentsArea_stack = __webpack_require__(151);
+	var _componentsArea_stack = __webpack_require__(165);
 
 	var _componentsArea_stack2 = _interopRequireDefault(_componentsArea_stack);
 
-	var _componentsBar = __webpack_require__(152);
+	var _componentsBar = __webpack_require__(166);
 
 	var _componentsBar2 = _interopRequireDefault(_componentsBar);
 
-	var _componentsBar_group = __webpack_require__(153);
+	var _componentsBar_group = __webpack_require__(167);
 
 	var _componentsBar_group2 = _interopRequireDefault(_componentsBar_group);
 
-	var _componentsBar_stack = __webpack_require__(154);
+	var _componentsBar_stack = __webpack_require__(168);
 
 	var _componentsBar_stack2 = _interopRequireDefault(_componentsBar_stack);
 
-	var _componentsPie = __webpack_require__(155);
+	var _componentsPie = __webpack_require__(169);
 
 	var _componentsPie2 = _interopRequireDefault(_componentsPie);
 
-	var _componentsScatter = __webpack_require__(156);
+	var _componentsScatter = __webpack_require__(170);
 
 	var _componentsScatter2 = _interopRequireDefault(_componentsScatter);
 
 	// Export high level charts
 
-	var _line = __webpack_require__(157);
+	var _line = __webpack_require__(171);
 
 	var _line2 = _interopRequireDefault(_line);
 
-	var _scatter = __webpack_require__(159);
+	var _scatter = __webpack_require__(173);
 
 	var _scatter2 = _interopRequireDefault(_scatter);
 
-	var _area_stack = __webpack_require__(160);
+	var _area_stack = __webpack_require__(174);
 
 	var _area_stack2 = _interopRequireDefault(_area_stack);
 
-	var _bar = __webpack_require__(161);
+	var _bar = __webpack_require__(175);
 
 	var _bar2 = _interopRequireDefault(_bar);
 
-	var _bar_group = __webpack_require__(162);
+	var _bar_group = __webpack_require__(176);
 
 	var _bar_group2 = _interopRequireDefault(_bar_group);
 
-	var _bar_stack = __webpack_require__(163);
+	var _bar_stack = __webpack_require__(177);
 
 	var _bar_stack2 = _interopRequireDefault(_bar_stack);
 
-	var _pie = __webpack_require__(164);
+	var _pie = __webpack_require__(178);
 
 	var _pie2 = _interopRequireDefault(_pie);
 
@@ -11869,12 +11866,18 @@ var ReactD3Brush =
 /* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 	exports.series = series;
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
 
 	function series(props) {
 	  var data = props.data;
@@ -11883,7 +11886,7 @@ var ReactD3Brush =
 	  var y = props.y;
 	  var categoricalColors = props.categoricalColors;
 
-	  categoricalColors = categoricalColors || d3.scale.category10();
+	  categoricalColors = categoricalColors || _d32["default"].scale.category10();
 
 	  var chartSeriesData = chartSeries.map(function (f, i) {
 
@@ -11909,7 +11912,6 @@ var ReactD3Brush =
 
 	  return chartSeriesData;
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
 /* 84 */
@@ -11937,7 +11939,7 @@ var ReactD3Brush =
 
 	var _utilsSeries = __webpack_require__(83);
 
-	var _reactD3Core = __webpack_require__(3);
+	var _reactD3Core = __webpack_require__(85);
 
 	var xyChart = (function (_Component) {
 	  _inherits(xyChart, _Component);
@@ -12053,98 +12055,76 @@ var ReactD3Brush =
 /* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	Object.defineProperty(exports, "__esModule", {
+	Object.defineProperty(exports, '__esModule', {
 	  value: true
 	});
 
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _containerSvg = __webpack_require__(86);
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	var _containerSvg2 = _interopRequireDefault(_containerSvg);
 
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	var _containerTitle = __webpack_require__(89);
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	var _containerTitle2 = _interopRequireDefault(_containerTitle);
 
-	var _react = __webpack_require__(2);
+	var _chartContainer = __webpack_require__(90);
 
-	var _react2 = _interopRequireDefault(_react);
+	var _chartContainer2 = _interopRequireDefault(_chartContainer);
 
-	var PieLayout = (function (_Component) {
-	  _inherits(PieLayout, _Component);
+	var _axisAxis = __webpack_require__(155);
 
-	  function PieLayout(props) {
-	    _classCallCheck(this, PieLayout);
+	var _axisAxis2 = _interopRequireDefault(_axisAxis);
 
-	    _get(Object.getPrototypeOf(PieLayout.prototype), "constructor", this).call(this, props);
-	  }
+	var _axisXaxis = __webpack_require__(156);
 
-	  _createClass(PieLayout, [{
-	    key: "_mkSeries",
-	    value: function _mkSeries() {
-	      var _props = this.props;
-	      var data = _props.data;
-	      var chartSeries = _props.chartSeries;
-	      var value = _props.value;
-	      var name = _props.name;
-	      var categoricalColors = _props.categoricalColors;
+	var _axisXaxis2 = _interopRequireDefault(_axisXaxis);
 
-	      var chartSeriesData = chartSeries.map(function (f, i) {
+	var _axisYaxis = __webpack_require__(158);
 
-	        // set a color if not set
-	        if (!f.color) f.color = categoricalColors(i);
+	var _axisYaxis2 = _interopRequireDefault(_axisYaxis);
 
-	        // set name if not set
-	        if (!f.name) f.name = f.field;
+	var _axisLabel = __webpack_require__(157);
 
-	        var val;
+	var _axisLabel2 = _interopRequireDefault(_axisLabel);
 
-	        data.forEach(function (d) {
-	          if (name(d) === f.field) val = d;
-	        });
+	var _legend = __webpack_require__(91);
 
-	        return Object.assign(f, { value: value(val) });
-	      });
+	var _legend2 = _interopRequireDefault(_legend);
 
-	      return chartSeriesData;
-	    }
-	  }], [{
-	    key: "propTypes",
-	    value: {
-	      title: _react.PropTypes.string,
-	      data: _react.PropTypes.array.isRequired,
-	      chartSeries: _react.PropTypes.array.isRequired,
-	      name: _react.PropTypes.func.isRequired,
-	      value: _react.PropTypes.func.isRequired,
-	      width: _react.PropTypes.number,
-	      height: _react.PropTypes.number,
-	      id: _react.PropTypes.string,
-	      margins: _react.PropTypes.object,
-	      svgClassName: _react.PropTypes.string,
-	      titleClassName: _react.PropTypes.string,
-	      categoricalColors: _react.PropTypes.func,
-	      radius: _react.PropTypes.number,
-	      outerRadius: _react.PropTypes.number,
-	      innerRadius: _react.PropTypes.number,
-	      pieSort: _react.PropTypes.func
-	    },
-	    enumerable: true
-	  }]);
+	var _grid = __webpack_require__(159);
 
-	  return PieLayout;
-	})(_react.Component);
+	var _grid2 = _interopRequireDefault(_grid);
 
-	exports["default"] = PieLayout;
-	module.exports = exports["default"];
+	// utils
+
+	var _utilsScale = __webpack_require__(88);
+
+	var _utilsXDomain = __webpack_require__(160);
+
+	var _utilsYDomain = __webpack_require__(161);
+
+	exports.Svg = _containerSvg2['default'];
+	exports.Title = _containerTitle2['default'];
+	exports.Chart = _chartContainer2['default'];
+	exports.Xaxis = _axisXaxis2['default'];
+	exports.Yaxis = _axisYaxis2['default'];
+	exports.Legend = _legend2['default'];
+	exports.Grid = _grid2['default'];
+	exports.Axis = _axisAxis2['default'];
+	exports.Label = _axisLabel2['default'];
+	exports.scale = _utilsScale.scale;
+	exports.xDomainCount = _utilsXDomain.xDomain;
+	exports.yDomainCount = _utilsYDomain.yDomain;
 
 /***/ },
 /* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -12152,7 +12132,7 @@ var ReactD3Brush =
 
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -12164,92 +12144,518 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactFauxDom = __webpack_require__(87);
+	var _d3 = __webpack_require__(5);
 
-	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
+	var _d32 = _interopRequireDefault(_d3);
 
-	var Line = (function (_Component) {
-	  _inherits(Line, _Component);
+	var _reactDom = __webpack_require__(6);
 
-	  function Line(props) {
-	    _classCallCheck(this, Line);
+	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	    _get(Object.getPrototypeOf(Line.prototype), 'constructor', this).call(this, props);
+	var _commonProps = __webpack_require__(87);
+
+	var _commonProps2 = _interopRequireDefault(_commonProps);
+
+	var _utilsScale = __webpack_require__(88);
+
+	var ChartSvg = (function (_Component) {
+	  _inherits(ChartSvg, _Component);
+
+	  function ChartSvg(props) {
+	    _classCallCheck(this, ChartSvg);
+
+	    _get(Object.getPrototypeOf(ChartSvg.prototype), 'constructor', this).call(this, props);
 	  }
 
-	  _createClass(Line, [{
-	    key: '_mkLine',
-	    value: function _mkLine(dom) {
+	  _createClass(ChartSvg, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      var _this = this;
+
 	      var _props = this.props;
-	      var dataset = _props.dataset;
-	      var lineClassName = _props.lineClassName;
-	      var showBrush = _props.showBrush;
-	      var showZoom = _props.showZoom;
-	      var duration = _props.duration;
+	      var width = _props.width;
+	      var margins = _props.margins;
+	      var xScale = _props.xScale;
+	      var xDomain = _props.xDomain;
+	      var xRange = _props.xRange;
+	      var xScaleSet = _props.xScaleSet;
+	      var yScaleSet = _props.yScaleSet;
+	      var onZoom = _props.onZoom;
+	      var scaleExtent = _props.scaleExtent;
 
-	      // make line
-	      var line = d3.select(dom);
-
-	      line.datum(dataset.data).style("stroke", dataset.color).attr("class", lineClassName + ' line').attr("d", this._setAxes());
-
-	      if (dataset.style) {
-	        for (var key in dataset.style) {
-	          line.style(key, dataset.style[key]);
+	      // implement zoom if xscale and y scale is set!
+	      if (xScaleSet && yScaleSet) {
+	        if (xScale === 'ordinal') {
+	          // if ordinal tramsform to linear
+	          xScaleSet = (0, _utilsScale.scale)({
+	            scale: 'linear',
+	            domain: [0, width - margins.left - margins.right],
+	            range: [0, width - margins.left - margins.right]
+	          });
 	        }
+
+	        var zoom = _d32['default'].behavior.zoom().x(xScaleSet).y(yScaleSet).scaleExtent(scaleExtent);
+
+	        zoom.on("zoom", function () {
+	          onZoom.call(_this, xScaleSet, yScaleSet, zoom);
+	        });
+
+	        _d32['default'].select(_reactDom2['default'].findDOMNode(this.refs.svgContainer)).call(zoom);
 	      }
-
-	      if (showBrush) line.style('clip-path', 'url(#react-d3-basic__brush_focus__clip)');
-
-	      if (showZoom) line.style('clip-path', 'url(#react-d3-basic__zoom_focus__clip)');
-
-	      return line;
-	    }
-	  }, {
-	    key: '_setAxes',
-	    value: function _setAxes() {
-	      var _props2 = this.props;
-	      var x = _props2.x;
-	      var y = _props2.y;
-	      var xScaleSet = _props2.xScaleSet;
-	      var yScaleSet = _props2.yScaleSet;
-	      var interpolate = _props2.interpolate;
-
-	      return d3.svg.line().interpolate(interpolate).x(function (d) {
-	        return xScaleSet(d.x);
-	      }).y(function (d) {
-	        return yScaleSet(d.y);
-	      });
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var linePath = _reactFauxDom2['default'].createElement('path');
-	      var line = this._mkLine(linePath);
+	      var _props2 = this.props;
+	      var height = _props2.height;
+	      var width = _props2.width;
+	      var margins = _props2.margins;
+	      var svgClassName = _props2.svgClassName;
+	      var id = _props2.id;
+	      var children = _props2.children;
 
-	      return line.node().toReact();
+	      var t = 'translate(' + margins.left + ', ' + margins.top + ')';
+
+	      return _react2['default'].createElement(
+	        'svg',
+	        {
+	          height: height,
+	          width: width,
+	          className: svgClassName,
+	          id: id,
+	          ref: 'svgContainer'
+	        },
+	        _react2['default'].createElement(
+	          'g',
+	          {
+	            transform: t
+	          },
+	          children
+	        )
+	      );
 	    }
 	  }], [{
 	    key: 'defaultProps',
+	    value: Object.assign(_commonProps2['default'], {
+	      svgClassName: 'react-d3-core__container_svg',
+	      onZoom: function onZoom() {},
+	      scaleExtent: [1, 10]
+	    }),
+	    enumerable: true
+	  }, {
+	    key: 'propTypes',
 	    value: {
-	      interpolate: null,
-	      lineClassName: 'react-d3-basic__line'
+	      id: _react.PropTypes.string,
+	      width: _react.PropTypes.number.isRequired,
+	      height: _react.PropTypes.number.isRequired,
+	      margins: _react.PropTypes.object.isRequired,
+	      svgClassName: _react.PropTypes.string.isRequired
 	    },
 	    enumerable: true
 	  }]);
 
-	  return Line;
+	  return ChartSvg;
 	})(_react.Component);
 
-	exports['default'] = Line;
+	exports['default'] = ChartSvg;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
 /* 87 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports["default"] = {
+	  width: 960,
+	  height: 500,
+	  margins: { top: 80, right: 100, bottom: 80, left: 100 }
+	};
+	module.exports = exports["default"];
+
+/***/ },
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Element = __webpack_require__(88)
-	var Window = __webpack_require__(149)
+	'use strict';
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	exports.scale = scale;
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	function scale(props) {
+	  var type = props.type;
+	  var scale = props.scale;
+
+	  var func;
+
+	  if (scale === 'linear') func = _d32['default'].scale.linear();else if (scale === 'identity') func = _d32['default'].scale.identity();else if (scale === 'sqrt') func = _d32['default'].scale.sqrt();else if (scale === 'pow') func = _d32['default'].scale.pow();else if (scale === 'log') func = _d32['default'].scale.log();else if (scale === 'quantize') func = _d32['default'].scale.quantize();else if (scale === 'quantile') func = _d32['default'].scale.quantile();else if (scale === 'ordinal') func = _d32['default'].scale.ordinal();else if (scale === 'time') func = _d32['default'].time.scale();else new Error('Please check your axis scale setting. "' + scale + '" scale is invalid. ');
+
+	  func = _mkScaleSettings(props, func);
+
+	  return func;
+	}
+
+	function _mkScaleSettings(props, func) {
+	  var type = props.type;
+	  var range = props.range;
+	  var domain = props.domain;
+	  var scale = props.scale;
+	  var rangeRoundBands = props.rangeRoundBands;
+
+	  if (range) func.range(range);
+
+	  if (domain) func.domain(domain);
+
+	  if (scale === 'ordinal' && rangeRoundBands) {
+	    var interval = rangeRoundBands.interval;
+	    var padding = rangeRoundBands.padding;
+	    var outerPadding = rangeRoundBands.outerPadding;
+
+	    if (padding && outerPadding) func.rangeRoundBands(interval, padding, outerPadding);else if (padding) func.rangeRoundBands(interval, padding);else func.rangeRoundBands(interval);
+	  }
+
+	  return func;
+	}
+
+/***/ },
+/* 89 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _commonProps = __webpack_require__(87);
+
+	var _commonProps2 = _interopRequireDefault(_commonProps);
+
+	var ChartTitle = (function (_Component) {
+	  _inherits(ChartTitle, _Component);
+
+	  function ChartTitle(props) {
+	    _classCallCheck(this, ChartTitle);
+
+	    _get(Object.getPrototypeOf(ChartTitle.prototype), 'constructor', this).call(this, props);
+	  }
+
+	  _createClass(ChartTitle, [{
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var titleClassName = _props.titleClassName;
+	      var title = _props.title;
+	      var width = _props.width;
+
+	      var titleStyle = {
+	        width: width,
+	        textAlign: 'center',
+	        fontSize: '2em',
+	        paddingBottom: '1.3em'
+	      };
+
+	      return _react2['default'].createElement(
+	        'div',
+	        {
+	          style: titleStyle,
+	          className: titleClassName
+	        },
+	        title
+	      );
+	    }
+	  }], [{
+	    key: 'defaultProps',
+	    value: Object.assign(_commonProps2['default'], {
+	      titleClassName: 'react-d3-core__container_title',
+	      title: 'Chart Title'
+	    }),
+	    enumerable: true
+	  }, {
+	    key: 'propTypes',
+	    value: {
+	      width: _react.PropTypes.number.isRequired,
+	      title: _react.PropTypes.string,
+	      titleClassName: _react.PropTypes.string
+	    },
+	    enumerable: true
+	  }]);
+
+	  return ChartTitle;
+	})(_react.Component);
+
+	exports['default'] = ChartTitle;
+	module.exports = exports['default'];
+
+/***/ },
+/* 90 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _containerSvg = __webpack_require__(86);
+
+	var _containerSvg2 = _interopRequireDefault(_containerSvg);
+
+	var _containerTitle = __webpack_require__(89);
+
+	var _containerTitle2 = _interopRequireDefault(_containerTitle);
+
+	var _legend = __webpack_require__(91);
+
+	var _legend2 = _interopRequireDefault(_legend);
+
+	var _commonProps = __webpack_require__(87);
+
+	var _commonProps2 = _interopRequireDefault(_commonProps);
+
+	var ChartContainer = (function (_Component) {
+	  _inherits(ChartContainer, _Component);
+
+	  function ChartContainer(props) {
+	    _classCallCheck(this, ChartContainer);
+
+	    _get(Object.getPrototypeOf(ChartContainer.prototype), 'constructor', this).call(this, props);
+	  }
+
+	  _createClass(ChartContainer, [{
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var width = _props.width;
+	      var chartSeries = _props.chartSeries;
+
+	      var legend;
+
+	      var divStyle = {
+	        width: width
+	      };
+
+	      if (chartSeries) {
+	        legend = _react2['default'].createElement(_legend2['default'], _extends({}, this.props, {
+	          chartSeries: chartSeries
+	        }));
+	      }
+
+	      return _react2['default'].createElement(
+	        'div',
+	        { style: divStyle },
+	        _react2['default'].createElement(_containerTitle2['default'], this.props),
+	        legend,
+	        _react2['default'].createElement(_containerSvg2['default'], this.props)
+	      );
+	    }
+	  }], [{
+	    key: 'defaultProps',
+	    value: _commonProps2['default'],
+	    enumerable: true
+	  }]);
+
+	  return ChartContainer;
+	})(_react.Component);
+
+	exports['default'] = ChartContainer;
+	module.exports = exports['default'];
+
+/***/ },
+/* 91 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
+
+	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
+
+	var _commonProps = __webpack_require__(87);
+
+	var _commonProps2 = _interopRequireDefault(_commonProps);
+
+	var Legend = (function (_Component) {
+	  _inherits(Legend, _Component);
+
+	  function Legend(props) {
+	    _classCallCheck(this, Legend);
+
+	    _get(Object.getPrototypeOf(Legend.prototype), 'constructor', this).call(this, props);
+	  }
+
+	  _createClass(Legend, [{
+	    key: '_series',
+	    value: function _series(props) {
+	      var chartSeries = props.chartSeries;
+	      var categoricalColors = props.categoricalColors;
+
+	      categoricalColors = categoricalColors || _d32['default'].scale.category10();
+
+	      var series = chartSeries.map(function (f, i) {
+
+	        // set a color if not set
+	        f.color = f.color || categoricalColors(i);
+
+	        // set name if not set
+	        f.name = f.name || f.field;
+
+	        return {
+	          color: f.color,
+	          name: f.name,
+	          field: f.field
+	        };
+	      });
+
+	      return series;
+	    }
+	  }, {
+	    key: '_mkLegend',
+	    value: function _mkLegend(dom) {
+	      var _props = this.props;
+	      var width = _props.width;
+	      var margins = _props.margins;
+	      var chartSeries = _props.chartSeries;
+	      var legendClassName = _props.legendClassName;
+	      var legendPosition = _props.legendPosition;
+	      var legendOffset = _props.legendOffset;
+
+	      var legendArea = _d32['default'].select(dom);
+	      var series = this._series(this.props);
+
+	      // make legends
+	      var legend = legendArea.selectAll('div').data(series).enter().append("div").attr("class", legendClassName + ' legend')
+	      // .style("width", 120)
+	      .style("height", 20).style("padding", 5).style("background-color", '#EEE').style("display", "inline-block");
+
+	      var rect = legend.append("div").style("width", 18).style("height", 18).style("background-color", function (d) {
+	        return d.color;
+	      }).style("float", legendPosition);
+
+	      var text = legend.append("div")
+	      // .style("width", 92)
+	      .style("padding-left", 5).style("padding-right", 5).text(function (d) {
+	        return d.name;
+	      }).style("float", legendPosition);
+
+	      return legendArea;
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props2 = this.props;
+	      var legendClassName = _props2.legendClassName;
+	      var width = _props2.width;
+	      var height = _props2.height;
+
+	      var legendGroup = _reactFauxDom2['default'].createElement('div');
+	      var legendClasses = legendClassName + ' legend';
+
+	      legendGroup.setAttribute('class', legendClasses);
+	      legendGroup.style.width = width;
+	      legendGroup.style.textAlign = 'center';
+
+	      var legendDom = this._mkLegend(legendGroup);
+
+	      return legendDom.node().toReact();
+	    }
+	  }], [{
+	    key: 'defaultProps',
+	    value: Object.assign(_commonProps2['default'], {
+	      legendHeight: 50,
+	      legendPosition: 'left',
+	      legendOffset: 90,
+	      legendClassName: 'react-d3-core__legend'
+	    }),
+	    enumerable: true
+	  }, {
+	    key: 'propTypes',
+	    value: {
+	      width: _react.PropTypes.number.isRequired,
+	      margins: _react.PropTypes.object.isRequired,
+	      chartSeries: _react.PropTypes.array.isRequired,
+	      legendOffset: _react.PropTypes.number.isRequired,
+	      legendClassName: _react.PropTypes.string.isRequired,
+	      legendPosition: _react.PropTypes.oneOf(['left', 'right']).isRequired
+	    },
+	    enumerable: true
+	  }]);
+
+	  return Legend;
+	})(_react.Component);
+
+	exports['default'] = Legend;
+	module.exports = exports['default'];
+
+/***/ },
+/* 92 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Element = __webpack_require__(93)
+	var Window = __webpack_require__(154)
 
 	var ReactFauxDOM = {
 	  Element: Element,
@@ -12273,17 +12679,17 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 88 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(2)
-	var clone = __webpack_require__(89)
-	var styleAttr = __webpack_require__(102)
-	var camelCase = __webpack_require__(103)
-	var assign = __webpack_require__(110)
-	var some = __webpack_require__(121)
-	var mapValues = __webpack_require__(133)
-	var querySelectorAll = __webpack_require__(145)
+	var clone = __webpack_require__(94)
+	var styleAttr = __webpack_require__(107)
+	var camelCase = __webpack_require__(108)
+	var assign = __webpack_require__(115)
+	var some = __webpack_require__(126)
+	var mapValues = __webpack_require__(138)
+	var querySelectorAll = __webpack_require__(150)
 
 	function styleCamelCase (name) {
 	  var camel = camelCase(name)
@@ -12614,7 +13020,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 89 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -12625,9 +13031,9 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseClone = __webpack_require__(90),
-	    bindCallback = __webpack_require__(100),
-	    isIterateeCall = __webpack_require__(101);
+	var baseClone = __webpack_require__(95),
+	    bindCallback = __webpack_require__(105),
+	    isIterateeCall = __webpack_require__(106);
 
 	/**
 	 * Creates a clone of `value`. If `isDeep` is `true` nested objects are cloned,
@@ -12698,7 +13104,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 90 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -12709,12 +13115,12 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var arrayCopy = __webpack_require__(91),
-	    arrayEach = __webpack_require__(92),
-	    baseAssign = __webpack_require__(93),
-	    baseFor = __webpack_require__(99),
-	    isArray = __webpack_require__(98),
-	    keys = __webpack_require__(95);
+	var arrayCopy = __webpack_require__(96),
+	    arrayEach = __webpack_require__(97),
+	    baseAssign = __webpack_require__(98),
+	    baseFor = __webpack_require__(104),
+	    isArray = __webpack_require__(103),
+	    keys = __webpack_require__(100);
 
 	/** `Object#toString` result references. */
 	var argsTag = '[object Arguments]',
@@ -12976,7 +13382,7 @@ var ReactD3Brush =
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 91 */
+/* 96 */
 /***/ function(module, exports) {
 
 	/**
@@ -13011,7 +13417,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 92 */
+/* 97 */
 /***/ function(module, exports) {
 
 	/**
@@ -13048,7 +13454,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 93 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13059,8 +13465,8 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseCopy = __webpack_require__(94),
-	    keys = __webpack_require__(95);
+	var baseCopy = __webpack_require__(99),
+	    keys = __webpack_require__(100);
 
 	/**
 	 * The base implementation of `_.assign` without support for argument juggling,
@@ -13081,7 +13487,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 94 */
+/* 99 */
 /***/ function(module, exports) {
 
 	/**
@@ -13119,7 +13525,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 95 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13130,9 +13536,9 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var getNative = __webpack_require__(96),
-	    isArguments = __webpack_require__(97),
-	    isArray = __webpack_require__(98);
+	var getNative = __webpack_require__(101),
+	    isArguments = __webpack_require__(102),
+	    isArray = __webpack_require__(103);
 
 	/** Used to detect unsigned integer values. */
 	var reIsUint = /^\d+$/;
@@ -13361,7 +13767,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 96 */
+/* 101 */
 /***/ function(module, exports) {
 
 	/**
@@ -13504,7 +13910,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 97 */
+/* 102 */
 /***/ function(module, exports) {
 
 	/**
@@ -13616,7 +14022,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 98 */
+/* 103 */
 /***/ function(module, exports) {
 
 	/**
@@ -13802,7 +14208,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 99 */
+/* 104 */
 /***/ function(module, exports) {
 
 	/**
@@ -13894,7 +14300,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 100 */
+/* 105 */
 /***/ function(module, exports) {
 
 	/**
@@ -13965,7 +14371,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 101 */
+/* 106 */
 /***/ function(module, exports) {
 
 	/**
@@ -14103,7 +14509,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 102 */
+/* 107 */
 /***/ function(module, exports) {
 
 	/*
@@ -14181,7 +14587,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 103 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14192,7 +14598,7 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var createCompounder = __webpack_require__(104);
+	var createCompounder = __webpack_require__(109);
 
 	/**
 	 * Converts `string` to camel case.
@@ -14223,7 +14629,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 104 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14234,8 +14640,8 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var deburr = __webpack_require__(105),
-	    words = __webpack_require__(107);
+	var deburr = __webpack_require__(110),
+	    words = __webpack_require__(112);
 
 	/**
 	 * Creates a function that produces compound words out of the words in a
@@ -14263,7 +14669,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 105 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14274,7 +14680,7 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseToString = __webpack_require__(106);
+	var baseToString = __webpack_require__(111);
 
 	/** Used to match [combining diacritical marks](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks). */
 	var reComboMark = /[\u0300-\u036f\ufe20-\ufe23]/g;
@@ -14337,7 +14743,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 106 */
+/* 111 */
 /***/ function(module, exports) {
 
 	/**
@@ -14365,7 +14771,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 107 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14376,8 +14782,8 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseToString = __webpack_require__(108),
-	    isIterateeCall = __webpack_require__(109);
+	var baseToString = __webpack_require__(113),
+	    isIterateeCall = __webpack_require__(114);
 
 	/** Used to match words to create compound words. */
 	var reWords = (function() {
@@ -14417,7 +14823,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 108 */
+/* 113 */
 /***/ function(module, exports) {
 
 	/**
@@ -14445,7 +14851,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 109 */
+/* 114 */
 /***/ function(module, exports) {
 
 	/**
@@ -14583,7 +14989,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 110 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14594,9 +15000,9 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseAssign = __webpack_require__(111),
-	    createAssigner = __webpack_require__(117),
-	    keys = __webpack_require__(113);
+	var baseAssign = __webpack_require__(116),
+	    createAssigner = __webpack_require__(122),
+	    keys = __webpack_require__(118);
 
 	/**
 	 * A specialized version of `_.assign` for customizing assigned values without
@@ -14669,7 +15075,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 111 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14680,8 +15086,8 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseCopy = __webpack_require__(112),
-	    keys = __webpack_require__(113);
+	var baseCopy = __webpack_require__(117),
+	    keys = __webpack_require__(118);
 
 	/**
 	 * The base implementation of `_.assign` without support for argument juggling,
@@ -14702,7 +15108,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 112 */
+/* 117 */
 /***/ function(module, exports) {
 
 	/**
@@ -14740,7 +15146,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 113 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14751,9 +15157,9 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var getNative = __webpack_require__(114),
-	    isArguments = __webpack_require__(115),
-	    isArray = __webpack_require__(116);
+	var getNative = __webpack_require__(119),
+	    isArguments = __webpack_require__(120),
+	    isArray = __webpack_require__(121);
 
 	/** Used to detect unsigned integer values. */
 	var reIsUint = /^\d+$/;
@@ -14982,7 +15388,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 114 */
+/* 119 */
 /***/ function(module, exports) {
 
 	/**
@@ -15125,7 +15531,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 115 */
+/* 120 */
 /***/ function(module, exports) {
 
 	/**
@@ -15237,7 +15643,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 116 */
+/* 121 */
 /***/ function(module, exports) {
 
 	/**
@@ -15423,7 +15829,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 117 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -15434,9 +15840,9 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var bindCallback = __webpack_require__(118),
-	    isIterateeCall = __webpack_require__(119),
-	    restParam = __webpack_require__(120);
+	var bindCallback = __webpack_require__(123),
+	    isIterateeCall = __webpack_require__(124),
+	    restParam = __webpack_require__(125);
 
 	/**
 	 * Creates a function that assigns properties of source object(s) to a given
@@ -15481,7 +15887,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 118 */
+/* 123 */
 /***/ function(module, exports) {
 
 	/**
@@ -15552,7 +15958,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 119 */
+/* 124 */
 /***/ function(module, exports) {
 
 	/**
@@ -15690,7 +16096,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 120 */
+/* 125 */
 /***/ function(module, exports) {
 
 	/**
@@ -15763,7 +16169,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 121 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -15774,10 +16180,10 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseCallback = __webpack_require__(122),
-	    baseEach = __webpack_require__(131),
-	    isIterateeCall = __webpack_require__(132),
-	    isArray = __webpack_require__(124);
+	var baseCallback = __webpack_require__(127),
+	    baseEach = __webpack_require__(136),
+	    isIterateeCall = __webpack_require__(137),
+	    isArray = __webpack_require__(129);
 
 	/**
 	 * A specialized version of `_.some` for arrays without support for callback
@@ -15885,7 +16291,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 122 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -15896,10 +16302,10 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseIsEqual = __webpack_require__(123),
-	    bindCallback = __webpack_require__(129),
-	    isArray = __webpack_require__(124),
-	    pairs = __webpack_require__(130);
+	var baseIsEqual = __webpack_require__(128),
+	    bindCallback = __webpack_require__(134),
+	    isArray = __webpack_require__(129),
+	    pairs = __webpack_require__(135);
 
 	/** Used to match property names within property paths. */
 	var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\n\\]|\\.)*?\1)\]/,
@@ -16313,7 +16719,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 123 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -16324,9 +16730,9 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var isArray = __webpack_require__(124),
-	    isTypedArray = __webpack_require__(125),
-	    keys = __webpack_require__(126);
+	var isArray = __webpack_require__(129),
+	    isTypedArray = __webpack_require__(130),
+	    keys = __webpack_require__(131);
 
 	/** `Object#toString` result references. */
 	var argsTag = '[object Arguments]',
@@ -16661,7 +17067,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 124 */
+/* 129 */
 /***/ function(module, exports) {
 
 	/**
@@ -16847,7 +17253,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 125 */
+/* 130 */
 /***/ function(module, exports) {
 
 	/**
@@ -16963,7 +17369,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 126 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -16974,9 +17380,9 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var getNative = __webpack_require__(127),
-	    isArguments = __webpack_require__(128),
-	    isArray = __webpack_require__(124);
+	var getNative = __webpack_require__(132),
+	    isArguments = __webpack_require__(133),
+	    isArray = __webpack_require__(129);
 
 	/** Used to detect unsigned integer values. */
 	var reIsUint = /^\d+$/;
@@ -17205,7 +17611,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 127 */
+/* 132 */
 /***/ function(module, exports) {
 
 	/**
@@ -17348,7 +17754,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 128 */
+/* 133 */
 /***/ function(module, exports) {
 
 	/**
@@ -17460,7 +17866,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 129 */
+/* 134 */
 /***/ function(module, exports) {
 
 	/**
@@ -17531,7 +17937,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 130 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17542,7 +17948,7 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var keys = __webpack_require__(126);
+	var keys = __webpack_require__(131);
 
 	/**
 	 * Converts `value` to an object if it's not one.
@@ -17615,7 +18021,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 131 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17626,7 +18032,7 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var keys = __webpack_require__(126);
+	var keys = __webpack_require__(131);
 
 	/**
 	 * Used as the [maximum length](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-number.max_safe_integer)
@@ -17802,7 +18208,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 132 */
+/* 137 */
 /***/ function(module, exports) {
 
 	/**
@@ -17940,7 +18346,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 133 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17951,9 +18357,9 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseCallback = __webpack_require__(134),
-	    baseFor = __webpack_require__(144),
-	    keys = __webpack_require__(138);
+	var baseCallback = __webpack_require__(139),
+	    baseFor = __webpack_require__(149),
+	    keys = __webpack_require__(143);
 
 	/**
 	 * The base implementation of `_.forOwn` without support for callback
@@ -18037,7 +18443,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 134 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18048,10 +18454,10 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var baseIsEqual = __webpack_require__(135),
-	    bindCallback = __webpack_require__(142),
-	    isArray = __webpack_require__(136),
-	    pairs = __webpack_require__(143);
+	var baseIsEqual = __webpack_require__(140),
+	    bindCallback = __webpack_require__(147),
+	    isArray = __webpack_require__(141),
+	    pairs = __webpack_require__(148);
 
 	/** Used to match property names within property paths. */
 	var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\n\\]|\\.)*?\1)\]/,
@@ -18465,7 +18871,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 135 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18476,9 +18882,9 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var isArray = __webpack_require__(136),
-	    isTypedArray = __webpack_require__(137),
-	    keys = __webpack_require__(138);
+	var isArray = __webpack_require__(141),
+	    isTypedArray = __webpack_require__(142),
+	    keys = __webpack_require__(143);
 
 	/** `Object#toString` result references. */
 	var argsTag = '[object Arguments]',
@@ -18810,805 +19216,6 @@ var ReactD3Brush =
 	}
 
 	module.exports = baseIsEqual;
-
-
-/***/ },
-/* 136 */
-/***/ function(module, exports) {
-
-	/**
-	 * lodash 3.0.4 (Custom Build) <https://lodash.com/>
-	 * Build: `lodash modern modularize exports="npm" -o ./`
-	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
-	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
-	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-	 * Available under MIT license <https://lodash.com/license>
-	 */
-
-	/** `Object#toString` result references. */
-	var arrayTag = '[object Array]',
-	    funcTag = '[object Function]';
-
-	/** Used to detect host constructors (Safari > 5). */
-	var reIsHostCtor = /^\[object .+?Constructor\]$/;
-
-	/**
-	 * Checks if `value` is object-like.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
-	 */
-	function isObjectLike(value) {
-	  return !!value && typeof value == 'object';
-	}
-
-	/** Used for native method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to resolve the decompiled source of functions. */
-	var fnToString = Function.prototype.toString;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
-	 * of values.
-	 */
-	var objToString = objectProto.toString;
-
-	/** Used to detect if a method is native. */
-	var reIsNative = RegExp('^' +
-	  fnToString.call(hasOwnProperty).replace(/[\\^$.*+?()[\]{}|]/g, '\\$&')
-	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
-	);
-
-	/* Native method references for those with the same name as other `lodash` methods. */
-	var nativeIsArray = getNative(Array, 'isArray');
-
-	/**
-	 * Used as the [maximum length](http://ecma-international.org/ecma-262/6.0/#sec-number.max_safe_integer)
-	 * of an array-like value.
-	 */
-	var MAX_SAFE_INTEGER = 9007199254740991;
-
-	/**
-	 * Gets the native function at `key` of `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @param {string} key The key of the method to get.
-	 * @returns {*} Returns the function if it's native, else `undefined`.
-	 */
-	function getNative(object, key) {
-	  var value = object == null ? undefined : object[key];
-	  return isNative(value) ? value : undefined;
-	}
-
-	/**
-	 * Checks if `value` is a valid array-like length.
-	 *
-	 * **Note:** This function is based on [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
-	 */
-	function isLength(value) {
-	  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
-	}
-
-	/**
-	 * Checks if `value` is classified as an `Array` object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
-	 * @example
-	 *
-	 * _.isArray([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isArray(function() { return arguments; }());
-	 * // => false
-	 */
-	var isArray = nativeIsArray || function(value) {
-	  return isObjectLike(value) && isLength(value.length) && objToString.call(value) == arrayTag;
-	};
-
-	/**
-	 * Checks if `value` is classified as a `Function` object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
-	 * @example
-	 *
-	 * _.isFunction(_);
-	 * // => true
-	 *
-	 * _.isFunction(/abc/);
-	 * // => false
-	 */
-	function isFunction(value) {
-	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in older versions of Chrome and Safari which return 'function' for regexes
-	  // and Safari 8 equivalents which return 'object' for typed array constructors.
-	  return isObject(value) && objToString.call(value) == funcTag;
-	}
-
-	/**
-	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
-	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
-	 * @example
-	 *
-	 * _.isObject({});
-	 * // => true
-	 *
-	 * _.isObject([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isObject(1);
-	 * // => false
-	 */
-	function isObject(value) {
-	  // Avoid a V8 JIT bug in Chrome 19-20.
-	  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
-	  var type = typeof value;
-	  return !!value && (type == 'object' || type == 'function');
-	}
-
-	/**
-	 * Checks if `value` is a native function.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a native function, else `false`.
-	 * @example
-	 *
-	 * _.isNative(Array.prototype.push);
-	 * // => true
-	 *
-	 * _.isNative(_);
-	 * // => false
-	 */
-	function isNative(value) {
-	  if (value == null) {
-	    return false;
-	  }
-	  if (isFunction(value)) {
-	    return reIsNative.test(fnToString.call(value));
-	  }
-	  return isObjectLike(value) && reIsHostCtor.test(value);
-	}
-
-	module.exports = isArray;
-
-
-/***/ },
-/* 137 */
-/***/ function(module, exports) {
-
-	/**
-	 * lodash 3.0.2 (Custom Build) <https://lodash.com/>
-	 * Build: `lodash modern modularize exports="npm" -o ./`
-	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
-	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
-	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-	 * Available under MIT license <https://lodash.com/license>
-	 */
-
-	/** `Object#toString` result references. */
-	var argsTag = '[object Arguments]',
-	    arrayTag = '[object Array]',
-	    boolTag = '[object Boolean]',
-	    dateTag = '[object Date]',
-	    errorTag = '[object Error]',
-	    funcTag = '[object Function]',
-	    mapTag = '[object Map]',
-	    numberTag = '[object Number]',
-	    objectTag = '[object Object]',
-	    regexpTag = '[object RegExp]',
-	    setTag = '[object Set]',
-	    stringTag = '[object String]',
-	    weakMapTag = '[object WeakMap]';
-
-	var arrayBufferTag = '[object ArrayBuffer]',
-	    float32Tag = '[object Float32Array]',
-	    float64Tag = '[object Float64Array]',
-	    int8Tag = '[object Int8Array]',
-	    int16Tag = '[object Int16Array]',
-	    int32Tag = '[object Int32Array]',
-	    uint8Tag = '[object Uint8Array]',
-	    uint8ClampedTag = '[object Uint8ClampedArray]',
-	    uint16Tag = '[object Uint16Array]',
-	    uint32Tag = '[object Uint32Array]';
-
-	/** Used to identify `toStringTag` values of typed arrays. */
-	var typedArrayTags = {};
-	typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
-	typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
-	typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
-	typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
-	typedArrayTags[uint32Tag] = true;
-	typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
-	typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
-	typedArrayTags[dateTag] = typedArrayTags[errorTag] =
-	typedArrayTags[funcTag] = typedArrayTags[mapTag] =
-	typedArrayTags[numberTag] = typedArrayTags[objectTag] =
-	typedArrayTags[regexpTag] = typedArrayTags[setTag] =
-	typedArrayTags[stringTag] = typedArrayTags[weakMapTag] = false;
-
-	/**
-	 * Checks if `value` is object-like.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
-	 */
-	function isObjectLike(value) {
-	  return !!value && typeof value == 'object';
-	}
-
-	/** Used for native method references. */
-	var objectProto = Object.prototype;
-
-	/**
-	 * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
-	 * of values.
-	 */
-	var objToString = objectProto.toString;
-
-	/**
-	 * Used as the [maximum length](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-number.max_safe_integer)
-	 * of an array-like value.
-	 */
-	var MAX_SAFE_INTEGER = 9007199254740991;
-
-	/**
-	 * Checks if `value` is a valid array-like length.
-	 *
-	 * **Note:** This function is based on [`ToLength`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-tolength).
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
-	 */
-	function isLength(value) {
-	  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
-	}
-
-	/**
-	 * Checks if `value` is classified as a typed array.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
-	 * @example
-	 *
-	 * _.isTypedArray(new Uint8Array);
-	 * // => true
-	 *
-	 * _.isTypedArray([]);
-	 * // => false
-	 */
-	function isTypedArray(value) {
-	  return isObjectLike(value) && isLength(value.length) && !!typedArrayTags[objToString.call(value)];
-	}
-
-	module.exports = isTypedArray;
-
-
-/***/ },
-/* 138 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * lodash 3.1.2 (Custom Build) <https://lodash.com/>
-	 * Build: `lodash modern modularize exports="npm" -o ./`
-	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
-	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
-	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-	 * Available under MIT license <https://lodash.com/license>
-	 */
-	var getNative = __webpack_require__(139),
-	    isArguments = __webpack_require__(140),
-	    isArray = __webpack_require__(141);
-
-	/** Used to detect unsigned integer values. */
-	var reIsUint = /^\d+$/;
-
-	/** Used for native method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/* Native method references for those with the same name as other `lodash` methods. */
-	var nativeKeys = getNative(Object, 'keys');
-
-	/**
-	 * Used as the [maximum length](http://ecma-international.org/ecma-262/6.0/#sec-number.max_safe_integer)
-	 * of an array-like value.
-	 */
-	var MAX_SAFE_INTEGER = 9007199254740991;
-
-	/**
-	 * The base implementation of `_.property` without support for deep paths.
-	 *
-	 * @private
-	 * @param {string} key The key of the property to get.
-	 * @returns {Function} Returns the new function.
-	 */
-	function baseProperty(key) {
-	  return function(object) {
-	    return object == null ? undefined : object[key];
-	  };
-	}
-
-	/**
-	 * Gets the "length" property value of `object`.
-	 *
-	 * **Note:** This function is used to avoid a [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792)
-	 * that affects Safari on at least iOS 8.1-8.3 ARM64.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {*} Returns the "length" value.
-	 */
-	var getLength = baseProperty('length');
-
-	/**
-	 * Checks if `value` is array-like.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
-	 */
-	function isArrayLike(value) {
-	  return value != null && isLength(getLength(value));
-	}
-
-	/**
-	 * Checks if `value` is a valid array-like index.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
-	 * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
-	 */
-	function isIndex(value, length) {
-	  value = (typeof value == 'number' || reIsUint.test(value)) ? +value : -1;
-	  length = length == null ? MAX_SAFE_INTEGER : length;
-	  return value > -1 && value % 1 == 0 && value < length;
-	}
-
-	/**
-	 * Checks if `value` is a valid array-like length.
-	 *
-	 * **Note:** This function is based on [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
-	 */
-	function isLength(value) {
-	  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
-	}
-
-	/**
-	 * A fallback implementation of `Object.keys` which creates an array of the
-	 * own enumerable property names of `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the array of property names.
-	 */
-	function shimKeys(object) {
-	  var props = keysIn(object),
-	      propsLength = props.length,
-	      length = propsLength && object.length;
-
-	  var allowIndexes = !!length && isLength(length) &&
-	    (isArray(object) || isArguments(object));
-
-	  var index = -1,
-	      result = [];
-
-	  while (++index < propsLength) {
-	    var key = props[index];
-	    if ((allowIndexes && isIndex(key, length)) || hasOwnProperty.call(object, key)) {
-	      result.push(key);
-	    }
-	  }
-	  return result;
-	}
-
-	/**
-	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
-	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
-	 * @example
-	 *
-	 * _.isObject({});
-	 * // => true
-	 *
-	 * _.isObject([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isObject(1);
-	 * // => false
-	 */
-	function isObject(value) {
-	  // Avoid a V8 JIT bug in Chrome 19-20.
-	  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
-	  var type = typeof value;
-	  return !!value && (type == 'object' || type == 'function');
-	}
-
-	/**
-	 * Creates an array of the own enumerable property names of `object`.
-	 *
-	 * **Note:** Non-object values are coerced to objects. See the
-	 * [ES spec](http://ecma-international.org/ecma-262/6.0/#sec-object.keys)
-	 * for more details.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Object
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the array of property names.
-	 * @example
-	 *
-	 * function Foo() {
-	 *   this.a = 1;
-	 *   this.b = 2;
-	 * }
-	 *
-	 * Foo.prototype.c = 3;
-	 *
-	 * _.keys(new Foo);
-	 * // => ['a', 'b'] (iteration order is not guaranteed)
-	 *
-	 * _.keys('hi');
-	 * // => ['0', '1']
-	 */
-	var keys = !nativeKeys ? shimKeys : function(object) {
-	  var Ctor = object == null ? undefined : object.constructor;
-	  if ((typeof Ctor == 'function' && Ctor.prototype === object) ||
-	      (typeof object != 'function' && isArrayLike(object))) {
-	    return shimKeys(object);
-	  }
-	  return isObject(object) ? nativeKeys(object) : [];
-	};
-
-	/**
-	 * Creates an array of the own and inherited enumerable property names of `object`.
-	 *
-	 * **Note:** Non-object values are coerced to objects.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Object
-	 * @param {Object} object The object to query.
-	 * @returns {Array} Returns the array of property names.
-	 * @example
-	 *
-	 * function Foo() {
-	 *   this.a = 1;
-	 *   this.b = 2;
-	 * }
-	 *
-	 * Foo.prototype.c = 3;
-	 *
-	 * _.keysIn(new Foo);
-	 * // => ['a', 'b', 'c'] (iteration order is not guaranteed)
-	 */
-	function keysIn(object) {
-	  if (object == null) {
-	    return [];
-	  }
-	  if (!isObject(object)) {
-	    object = Object(object);
-	  }
-	  var length = object.length;
-	  length = (length && isLength(length) &&
-	    (isArray(object) || isArguments(object)) && length) || 0;
-
-	  var Ctor = object.constructor,
-	      index = -1,
-	      isProto = typeof Ctor == 'function' && Ctor.prototype === object,
-	      result = Array(length),
-	      skipIndexes = length > 0;
-
-	  while (++index < length) {
-	    result[index] = (index + '');
-	  }
-	  for (var key in object) {
-	    if (!(skipIndexes && isIndex(key, length)) &&
-	        !(key == 'constructor' && (isProto || !hasOwnProperty.call(object, key)))) {
-	      result.push(key);
-	    }
-	  }
-	  return result;
-	}
-
-	module.exports = keys;
-
-
-/***/ },
-/* 139 */
-/***/ function(module, exports) {
-
-	/**
-	 * lodash 3.9.1 (Custom Build) <https://lodash.com/>
-	 * Build: `lodash modern modularize exports="npm" -o ./`
-	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
-	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
-	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-	 * Available under MIT license <https://lodash.com/license>
-	 */
-
-	/** `Object#toString` result references. */
-	var funcTag = '[object Function]';
-
-	/** Used to detect host constructors (Safari > 5). */
-	var reIsHostCtor = /^\[object .+?Constructor\]$/;
-
-	/**
-	 * Checks if `value` is object-like.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
-	 */
-	function isObjectLike(value) {
-	  return !!value && typeof value == 'object';
-	}
-
-	/** Used for native method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to resolve the decompiled source of functions. */
-	var fnToString = Function.prototype.toString;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/**
-	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
-	 * of values.
-	 */
-	var objToString = objectProto.toString;
-
-	/** Used to detect if a method is native. */
-	var reIsNative = RegExp('^' +
-	  fnToString.call(hasOwnProperty).replace(/[\\^$.*+?()[\]{}|]/g, '\\$&')
-	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
-	);
-
-	/**
-	 * Gets the native function at `key` of `object`.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @param {string} key The key of the method to get.
-	 * @returns {*} Returns the function if it's native, else `undefined`.
-	 */
-	function getNative(object, key) {
-	  var value = object == null ? undefined : object[key];
-	  return isNative(value) ? value : undefined;
-	}
-
-	/**
-	 * Checks if `value` is classified as a `Function` object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
-	 * @example
-	 *
-	 * _.isFunction(_);
-	 * // => true
-	 *
-	 * _.isFunction(/abc/);
-	 * // => false
-	 */
-	function isFunction(value) {
-	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in older versions of Chrome and Safari which return 'function' for regexes
-	  // and Safari 8 equivalents which return 'object' for typed array constructors.
-	  return isObject(value) && objToString.call(value) == funcTag;
-	}
-
-	/**
-	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
-	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
-	 * @example
-	 *
-	 * _.isObject({});
-	 * // => true
-	 *
-	 * _.isObject([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isObject(1);
-	 * // => false
-	 */
-	function isObject(value) {
-	  // Avoid a V8 JIT bug in Chrome 19-20.
-	  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
-	  var type = typeof value;
-	  return !!value && (type == 'object' || type == 'function');
-	}
-
-	/**
-	 * Checks if `value` is a native function.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a native function, else `false`.
-	 * @example
-	 *
-	 * _.isNative(Array.prototype.push);
-	 * // => true
-	 *
-	 * _.isNative(_);
-	 * // => false
-	 */
-	function isNative(value) {
-	  if (value == null) {
-	    return false;
-	  }
-	  if (isFunction(value)) {
-	    return reIsNative.test(fnToString.call(value));
-	  }
-	  return isObjectLike(value) && reIsHostCtor.test(value);
-	}
-
-	module.exports = getNative;
-
-
-/***/ },
-/* 140 */
-/***/ function(module, exports) {
-
-	/**
-	 * lodash 3.0.4 (Custom Build) <https://lodash.com/>
-	 * Build: `lodash modern modularize exports="npm" -o ./`
-	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
-	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
-	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-	 * Available under MIT license <https://lodash.com/license>
-	 */
-
-	/**
-	 * Checks if `value` is object-like.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
-	 */
-	function isObjectLike(value) {
-	  return !!value && typeof value == 'object';
-	}
-
-	/** Used for native method references. */
-	var objectProto = Object.prototype;
-
-	/** Used to check objects for own properties. */
-	var hasOwnProperty = objectProto.hasOwnProperty;
-
-	/** Native method references. */
-	var propertyIsEnumerable = objectProto.propertyIsEnumerable;
-
-	/**
-	 * Used as the [maximum length](http://ecma-international.org/ecma-262/6.0/#sec-number.max_safe_integer)
-	 * of an array-like value.
-	 */
-	var MAX_SAFE_INTEGER = 9007199254740991;
-
-	/**
-	 * The base implementation of `_.property` without support for deep paths.
-	 *
-	 * @private
-	 * @param {string} key The key of the property to get.
-	 * @returns {Function} Returns the new function.
-	 */
-	function baseProperty(key) {
-	  return function(object) {
-	    return object == null ? undefined : object[key];
-	  };
-	}
-
-	/**
-	 * Gets the "length" property value of `object`.
-	 *
-	 * **Note:** This function is used to avoid a [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792)
-	 * that affects Safari on at least iOS 8.1-8.3 ARM64.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {*} Returns the "length" value.
-	 */
-	var getLength = baseProperty('length');
-
-	/**
-	 * Checks if `value` is array-like.
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
-	 */
-	function isArrayLike(value) {
-	  return value != null && isLength(getLength(value));
-	}
-
-	/**
-	 * Checks if `value` is a valid array-like length.
-	 *
-	 * **Note:** This function is based on [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
-	 *
-	 * @private
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
-	 */
-	function isLength(value) {
-	  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
-	}
-
-	/**
-	 * Checks if `value` is classified as an `arguments` object.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
-	 * @example
-	 *
-	 * _.isArguments(function() { return arguments; }());
-	 * // => true
-	 *
-	 * _.isArguments([1, 2, 3]);
-	 * // => false
-	 */
-	function isArguments(value) {
-	  return isObjectLike(value) && isArrayLike(value) &&
-	    hasOwnProperty.call(value, 'callee') && !propertyIsEnumerable.call(value, 'callee');
-	}
-
-	module.exports = isArguments;
 
 
 /***/ },
@@ -19802,6 +19409,805 @@ var ReactD3Brush =
 /***/ function(module, exports) {
 
 	/**
+	 * lodash 3.0.2 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modern modularize exports="npm" -o ./`
+	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+
+	/** `Object#toString` result references. */
+	var argsTag = '[object Arguments]',
+	    arrayTag = '[object Array]',
+	    boolTag = '[object Boolean]',
+	    dateTag = '[object Date]',
+	    errorTag = '[object Error]',
+	    funcTag = '[object Function]',
+	    mapTag = '[object Map]',
+	    numberTag = '[object Number]',
+	    objectTag = '[object Object]',
+	    regexpTag = '[object RegExp]',
+	    setTag = '[object Set]',
+	    stringTag = '[object String]',
+	    weakMapTag = '[object WeakMap]';
+
+	var arrayBufferTag = '[object ArrayBuffer]',
+	    float32Tag = '[object Float32Array]',
+	    float64Tag = '[object Float64Array]',
+	    int8Tag = '[object Int8Array]',
+	    int16Tag = '[object Int16Array]',
+	    int32Tag = '[object Int32Array]',
+	    uint8Tag = '[object Uint8Array]',
+	    uint8ClampedTag = '[object Uint8ClampedArray]',
+	    uint16Tag = '[object Uint16Array]',
+	    uint32Tag = '[object Uint32Array]';
+
+	/** Used to identify `toStringTag` values of typed arrays. */
+	var typedArrayTags = {};
+	typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
+	typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
+	typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
+	typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
+	typedArrayTags[uint32Tag] = true;
+	typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
+	typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
+	typedArrayTags[dateTag] = typedArrayTags[errorTag] =
+	typedArrayTags[funcTag] = typedArrayTags[mapTag] =
+	typedArrayTags[numberTag] = typedArrayTags[objectTag] =
+	typedArrayTags[regexpTag] = typedArrayTags[setTag] =
+	typedArrayTags[stringTag] = typedArrayTags[weakMapTag] = false;
+
+	/**
+	 * Checks if `value` is object-like.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	 */
+	function isObjectLike(value) {
+	  return !!value && typeof value == 'object';
+	}
+
+	/** Used for native method references. */
+	var objectProto = Object.prototype;
+
+	/**
+	 * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
+	 * of values.
+	 */
+	var objToString = objectProto.toString;
+
+	/**
+	 * Used as the [maximum length](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-number.max_safe_integer)
+	 * of an array-like value.
+	 */
+	var MAX_SAFE_INTEGER = 9007199254740991;
+
+	/**
+	 * Checks if `value` is a valid array-like length.
+	 *
+	 * **Note:** This function is based on [`ToLength`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-tolength).
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+	 */
+	function isLength(value) {
+	  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+	}
+
+	/**
+	 * Checks if `value` is classified as a typed array.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @example
+	 *
+	 * _.isTypedArray(new Uint8Array);
+	 * // => true
+	 *
+	 * _.isTypedArray([]);
+	 * // => false
+	 */
+	function isTypedArray(value) {
+	  return isObjectLike(value) && isLength(value.length) && !!typedArrayTags[objToString.call(value)];
+	}
+
+	module.exports = isTypedArray;
+
+
+/***/ },
+/* 143 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * lodash 3.1.2 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modern modularize exports="npm" -o ./`
+	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+	var getNative = __webpack_require__(144),
+	    isArguments = __webpack_require__(145),
+	    isArray = __webpack_require__(146);
+
+	/** Used to detect unsigned integer values. */
+	var reIsUint = /^\d+$/;
+
+	/** Used for native method references. */
+	var objectProto = Object.prototype;
+
+	/** Used to check objects for own properties. */
+	var hasOwnProperty = objectProto.hasOwnProperty;
+
+	/* Native method references for those with the same name as other `lodash` methods. */
+	var nativeKeys = getNative(Object, 'keys');
+
+	/**
+	 * Used as the [maximum length](http://ecma-international.org/ecma-262/6.0/#sec-number.max_safe_integer)
+	 * of an array-like value.
+	 */
+	var MAX_SAFE_INTEGER = 9007199254740991;
+
+	/**
+	 * The base implementation of `_.property` without support for deep paths.
+	 *
+	 * @private
+	 * @param {string} key The key of the property to get.
+	 * @returns {Function} Returns the new function.
+	 */
+	function baseProperty(key) {
+	  return function(object) {
+	    return object == null ? undefined : object[key];
+	  };
+	}
+
+	/**
+	 * Gets the "length" property value of `object`.
+	 *
+	 * **Note:** This function is used to avoid a [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792)
+	 * that affects Safari on at least iOS 8.1-8.3 ARM64.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @returns {*} Returns the "length" value.
+	 */
+	var getLength = baseProperty('length');
+
+	/**
+	 * Checks if `value` is array-like.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+	 */
+	function isArrayLike(value) {
+	  return value != null && isLength(getLength(value));
+	}
+
+	/**
+	 * Checks if `value` is a valid array-like index.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+	 * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+	 */
+	function isIndex(value, length) {
+	  value = (typeof value == 'number' || reIsUint.test(value)) ? +value : -1;
+	  length = length == null ? MAX_SAFE_INTEGER : length;
+	  return value > -1 && value % 1 == 0 && value < length;
+	}
+
+	/**
+	 * Checks if `value` is a valid array-like length.
+	 *
+	 * **Note:** This function is based on [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+	 */
+	function isLength(value) {
+	  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+	}
+
+	/**
+	 * A fallback implementation of `Object.keys` which creates an array of the
+	 * own enumerable property names of `object`.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @returns {Array} Returns the array of property names.
+	 */
+	function shimKeys(object) {
+	  var props = keysIn(object),
+	      propsLength = props.length,
+	      length = propsLength && object.length;
+
+	  var allowIndexes = !!length && isLength(length) &&
+	    (isArray(object) || isArguments(object));
+
+	  var index = -1,
+	      result = [];
+
+	  while (++index < propsLength) {
+	    var key = props[index];
+	    if ((allowIndexes && isIndex(key, length)) || hasOwnProperty.call(object, key)) {
+	      result.push(key);
+	    }
+	  }
+	  return result;
+	}
+
+	/**
+	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	 * @example
+	 *
+	 * _.isObject({});
+	 * // => true
+	 *
+	 * _.isObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObject(1);
+	 * // => false
+	 */
+	function isObject(value) {
+	  // Avoid a V8 JIT bug in Chrome 19-20.
+	  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
+	  var type = typeof value;
+	  return !!value && (type == 'object' || type == 'function');
+	}
+
+	/**
+	 * Creates an array of the own enumerable property names of `object`.
+	 *
+	 * **Note:** Non-object values are coerced to objects. See the
+	 * [ES spec](http://ecma-international.org/ecma-262/6.0/#sec-object.keys)
+	 * for more details.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Object
+	 * @param {Object} object The object to query.
+	 * @returns {Array} Returns the array of property names.
+	 * @example
+	 *
+	 * function Foo() {
+	 *   this.a = 1;
+	 *   this.b = 2;
+	 * }
+	 *
+	 * Foo.prototype.c = 3;
+	 *
+	 * _.keys(new Foo);
+	 * // => ['a', 'b'] (iteration order is not guaranteed)
+	 *
+	 * _.keys('hi');
+	 * // => ['0', '1']
+	 */
+	var keys = !nativeKeys ? shimKeys : function(object) {
+	  var Ctor = object == null ? undefined : object.constructor;
+	  if ((typeof Ctor == 'function' && Ctor.prototype === object) ||
+	      (typeof object != 'function' && isArrayLike(object))) {
+	    return shimKeys(object);
+	  }
+	  return isObject(object) ? nativeKeys(object) : [];
+	};
+
+	/**
+	 * Creates an array of the own and inherited enumerable property names of `object`.
+	 *
+	 * **Note:** Non-object values are coerced to objects.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Object
+	 * @param {Object} object The object to query.
+	 * @returns {Array} Returns the array of property names.
+	 * @example
+	 *
+	 * function Foo() {
+	 *   this.a = 1;
+	 *   this.b = 2;
+	 * }
+	 *
+	 * Foo.prototype.c = 3;
+	 *
+	 * _.keysIn(new Foo);
+	 * // => ['a', 'b', 'c'] (iteration order is not guaranteed)
+	 */
+	function keysIn(object) {
+	  if (object == null) {
+	    return [];
+	  }
+	  if (!isObject(object)) {
+	    object = Object(object);
+	  }
+	  var length = object.length;
+	  length = (length && isLength(length) &&
+	    (isArray(object) || isArguments(object)) && length) || 0;
+
+	  var Ctor = object.constructor,
+	      index = -1,
+	      isProto = typeof Ctor == 'function' && Ctor.prototype === object,
+	      result = Array(length),
+	      skipIndexes = length > 0;
+
+	  while (++index < length) {
+	    result[index] = (index + '');
+	  }
+	  for (var key in object) {
+	    if (!(skipIndexes && isIndex(key, length)) &&
+	        !(key == 'constructor' && (isProto || !hasOwnProperty.call(object, key)))) {
+	      result.push(key);
+	    }
+	  }
+	  return result;
+	}
+
+	module.exports = keys;
+
+
+/***/ },
+/* 144 */
+/***/ function(module, exports) {
+
+	/**
+	 * lodash 3.9.1 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modern modularize exports="npm" -o ./`
+	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+
+	/** `Object#toString` result references. */
+	var funcTag = '[object Function]';
+
+	/** Used to detect host constructors (Safari > 5). */
+	var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+	/**
+	 * Checks if `value` is object-like.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	 */
+	function isObjectLike(value) {
+	  return !!value && typeof value == 'object';
+	}
+
+	/** Used for native method references. */
+	var objectProto = Object.prototype;
+
+	/** Used to resolve the decompiled source of functions. */
+	var fnToString = Function.prototype.toString;
+
+	/** Used to check objects for own properties. */
+	var hasOwnProperty = objectProto.hasOwnProperty;
+
+	/**
+	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * of values.
+	 */
+	var objToString = objectProto.toString;
+
+	/** Used to detect if a method is native. */
+	var reIsNative = RegExp('^' +
+	  fnToString.call(hasOwnProperty).replace(/[\\^$.*+?()[\]{}|]/g, '\\$&')
+	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+	);
+
+	/**
+	 * Gets the native function at `key` of `object`.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @param {string} key The key of the method to get.
+	 * @returns {*} Returns the function if it's native, else `undefined`.
+	 */
+	function getNative(object, key) {
+	  var value = object == null ? undefined : object[key];
+	  return isNative(value) ? value : undefined;
+	}
+
+	/**
+	 * Checks if `value` is classified as a `Function` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @example
+	 *
+	 * _.isFunction(_);
+	 * // => true
+	 *
+	 * _.isFunction(/abc/);
+	 * // => false
+	 */
+	function isFunction(value) {
+	  // The use of `Object#toString` avoids issues with the `typeof` operator
+	  // in older versions of Chrome and Safari which return 'function' for regexes
+	  // and Safari 8 equivalents which return 'object' for typed array constructors.
+	  return isObject(value) && objToString.call(value) == funcTag;
+	}
+
+	/**
+	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	 * @example
+	 *
+	 * _.isObject({});
+	 * // => true
+	 *
+	 * _.isObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObject(1);
+	 * // => false
+	 */
+	function isObject(value) {
+	  // Avoid a V8 JIT bug in Chrome 19-20.
+	  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
+	  var type = typeof value;
+	  return !!value && (type == 'object' || type == 'function');
+	}
+
+	/**
+	 * Checks if `value` is a native function.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a native function, else `false`.
+	 * @example
+	 *
+	 * _.isNative(Array.prototype.push);
+	 * // => true
+	 *
+	 * _.isNative(_);
+	 * // => false
+	 */
+	function isNative(value) {
+	  if (value == null) {
+	    return false;
+	  }
+	  if (isFunction(value)) {
+	    return reIsNative.test(fnToString.call(value));
+	  }
+	  return isObjectLike(value) && reIsHostCtor.test(value);
+	}
+
+	module.exports = getNative;
+
+
+/***/ },
+/* 145 */
+/***/ function(module, exports) {
+
+	/**
+	 * lodash 3.0.4 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modern modularize exports="npm" -o ./`
+	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+
+	/**
+	 * Checks if `value` is object-like.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	 */
+	function isObjectLike(value) {
+	  return !!value && typeof value == 'object';
+	}
+
+	/** Used for native method references. */
+	var objectProto = Object.prototype;
+
+	/** Used to check objects for own properties. */
+	var hasOwnProperty = objectProto.hasOwnProperty;
+
+	/** Native method references. */
+	var propertyIsEnumerable = objectProto.propertyIsEnumerable;
+
+	/**
+	 * Used as the [maximum length](http://ecma-international.org/ecma-262/6.0/#sec-number.max_safe_integer)
+	 * of an array-like value.
+	 */
+	var MAX_SAFE_INTEGER = 9007199254740991;
+
+	/**
+	 * The base implementation of `_.property` without support for deep paths.
+	 *
+	 * @private
+	 * @param {string} key The key of the property to get.
+	 * @returns {Function} Returns the new function.
+	 */
+	function baseProperty(key) {
+	  return function(object) {
+	    return object == null ? undefined : object[key];
+	  };
+	}
+
+	/**
+	 * Gets the "length" property value of `object`.
+	 *
+	 * **Note:** This function is used to avoid a [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792)
+	 * that affects Safari on at least iOS 8.1-8.3 ARM64.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @returns {*} Returns the "length" value.
+	 */
+	var getLength = baseProperty('length');
+
+	/**
+	 * Checks if `value` is array-like.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+	 */
+	function isArrayLike(value) {
+	  return value != null && isLength(getLength(value));
+	}
+
+	/**
+	 * Checks if `value` is a valid array-like length.
+	 *
+	 * **Note:** This function is based on [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+	 */
+	function isLength(value) {
+	  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+	}
+
+	/**
+	 * Checks if `value` is classified as an `arguments` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @example
+	 *
+	 * _.isArguments(function() { return arguments; }());
+	 * // => true
+	 *
+	 * _.isArguments([1, 2, 3]);
+	 * // => false
+	 */
+	function isArguments(value) {
+	  return isObjectLike(value) && isArrayLike(value) &&
+	    hasOwnProperty.call(value, 'callee') && !propertyIsEnumerable.call(value, 'callee');
+	}
+
+	module.exports = isArguments;
+
+
+/***/ },
+/* 146 */
+/***/ function(module, exports) {
+
+	/**
+	 * lodash 3.0.4 (Custom Build) <https://lodash.com/>
+	 * Build: `lodash modern modularize exports="npm" -o ./`
+	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
+	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	 * Available under MIT license <https://lodash.com/license>
+	 */
+
+	/** `Object#toString` result references. */
+	var arrayTag = '[object Array]',
+	    funcTag = '[object Function]';
+
+	/** Used to detect host constructors (Safari > 5). */
+	var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+	/**
+	 * Checks if `value` is object-like.
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	 */
+	function isObjectLike(value) {
+	  return !!value && typeof value == 'object';
+	}
+
+	/** Used for native method references. */
+	var objectProto = Object.prototype;
+
+	/** Used to resolve the decompiled source of functions. */
+	var fnToString = Function.prototype.toString;
+
+	/** Used to check objects for own properties. */
+	var hasOwnProperty = objectProto.hasOwnProperty;
+
+	/**
+	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * of values.
+	 */
+	var objToString = objectProto.toString;
+
+	/** Used to detect if a method is native. */
+	var reIsNative = RegExp('^' +
+	  fnToString.call(hasOwnProperty).replace(/[\\^$.*+?()[\]{}|]/g, '\\$&')
+	  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+	);
+
+	/* Native method references for those with the same name as other `lodash` methods. */
+	var nativeIsArray = getNative(Array, 'isArray');
+
+	/**
+	 * Used as the [maximum length](http://ecma-international.org/ecma-262/6.0/#sec-number.max_safe_integer)
+	 * of an array-like value.
+	 */
+	var MAX_SAFE_INTEGER = 9007199254740991;
+
+	/**
+	 * Gets the native function at `key` of `object`.
+	 *
+	 * @private
+	 * @param {Object} object The object to query.
+	 * @param {string} key The key of the method to get.
+	 * @returns {*} Returns the function if it's native, else `undefined`.
+	 */
+	function getNative(object, key) {
+	  var value = object == null ? undefined : object[key];
+	  return isNative(value) ? value : undefined;
+	}
+
+	/**
+	 * Checks if `value` is a valid array-like length.
+	 *
+	 * **Note:** This function is based on [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
+	 *
+	 * @private
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+	 */
+	function isLength(value) {
+	  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+	}
+
+	/**
+	 * Checks if `value` is classified as an `Array` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @example
+	 *
+	 * _.isArray([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isArray(function() { return arguments; }());
+	 * // => false
+	 */
+	var isArray = nativeIsArray || function(value) {
+	  return isObjectLike(value) && isLength(value.length) && objToString.call(value) == arrayTag;
+	};
+
+	/**
+	 * Checks if `value` is classified as a `Function` object.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @example
+	 *
+	 * _.isFunction(_);
+	 * // => true
+	 *
+	 * _.isFunction(/abc/);
+	 * // => false
+	 */
+	function isFunction(value) {
+	  // The use of `Object#toString` avoids issues with the `typeof` operator
+	  // in older versions of Chrome and Safari which return 'function' for regexes
+	  // and Safari 8 equivalents which return 'object' for typed array constructors.
+	  return isObject(value) && objToString.call(value) == funcTag;
+	}
+
+	/**
+	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	 * @example
+	 *
+	 * _.isObject({});
+	 * // => true
+	 *
+	 * _.isObject([1, 2, 3]);
+	 * // => true
+	 *
+	 * _.isObject(1);
+	 * // => false
+	 */
+	function isObject(value) {
+	  // Avoid a V8 JIT bug in Chrome 19-20.
+	  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
+	  var type = typeof value;
+	  return !!value && (type == 'object' || type == 'function');
+	}
+
+	/**
+	 * Checks if `value` is a native function.
+	 *
+	 * @static
+	 * @memberOf _
+	 * @category Lang
+	 * @param {*} value The value to check.
+	 * @returns {boolean} Returns `true` if `value` is a native function, else `false`.
+	 * @example
+	 *
+	 * _.isNative(Array.prototype.push);
+	 * // => true
+	 *
+	 * _.isNative(_);
+	 * // => false
+	 */
+	function isNative(value) {
+	  if (value == null) {
+	    return false;
+	  }
+	  if (isFunction(value)) {
+	    return reIsNative.test(fnToString.call(value));
+	  }
+	  return isObjectLike(value) && reIsHostCtor.test(value);
+	}
+
+	module.exports = isArray;
+
+
+/***/ },
+/* 147 */
+/***/ function(module, exports) {
+
+	/**
 	 * lodash 3.0.1 (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modern modularize exports="npm" -o ./`
 	 * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
@@ -19869,7 +20275,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 143 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -19880,7 +20286,7 @@ var ReactD3Brush =
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var keys = __webpack_require__(138);
+	var keys = __webpack_require__(143);
 
 	/**
 	 * Converts `value` to an object if it's not one.
@@ -19953,7 +20359,7 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 144 */
+/* 149 */
 /***/ function(module, exports) {
 
 	/**
@@ -20045,13 +20451,13 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 145 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(146);
+	module.exports = __webpack_require__(151);
 
 /***/ },
-/* 146 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20060,8 +20466,8 @@ var ReactD3Brush =
 	 * @author yiminghe@gmail.com
 	 */
 
-	var util = __webpack_require__(147);
-	var parser = __webpack_require__(148);
+	var util = __webpack_require__(152);
+	var parser = __webpack_require__(153);
 
 	var EXPANDO_SELECTOR_KEY = '_ks_data_selector_id_',
 	  caches = {},
@@ -20754,7 +21160,7 @@ var ReactD3Brush =
 	 */
 
 /***/ },
-/* 147 */
+/* 152 */
 /***/ function(module, exports) {
 
 	/**
@@ -21105,7 +21511,7 @@ var ReactD3Brush =
 	};
 
 /***/ },
-/* 148 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -22314,7 +22720,7 @@ var ReactD3Brush =
 	}
 
 /***/ },
-/* 149 */
+/* 154 */
 /***/ function(module, exports) {
 
 	var Window = {
@@ -22329,10 +22735,969 @@ var ReactD3Brush =
 
 
 /***/ },
-/* 150 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
+
+	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
+
+	var _utilsScale = __webpack_require__(88);
+
+	var Axis = (function (_Component) {
+	  _inherits(Axis, _Component);
+
+	  function Axis(props) {
+	    _classCallCheck(this, Axis);
+
+	    _get(Object.getPrototypeOf(Axis.prototype), 'constructor', this).call(this, props);
+	  }
+
+	  _createClass(Axis, [{
+	    key: '_mkTickAxis',
+	    value: function _mkTickAxis() {
+	      var _props = this.props;
+	      var type = _props.type;
+	      var tickOrient = _props.tickOrient;
+	      var tickFormat = _props.tickFormat;
+	      var tickPadding = _props.tickPadding;
+	      var innerTickSize = _props.innerTickSize;
+	      var outerTickSize = _props.outerTickSize;
+	      var ticks = _props.ticks;
+
+	      var func = _d32['default'].svg.axis();
+
+	      func.scale(this._mkScale(this.props));
+
+	      if (tickOrient) func.orient(tickOrient);
+
+	      if (tickFormat) func.tickFormat(tickFormat);
+
+	      if (tickPadding) func.tickPadding(tickPadding);
+
+	      if (outerTickSize) func.outerTickSize(outerTickSize);
+
+	      if (innerTickSize) func.innerTickSize(innerTickSize);
+
+	      if (ticks) func.ticks.apply(null, ticks);
+
+	      return func;
+	    }
+	  }, {
+	    key: '_mkScale',
+	    value: function _mkScale() {
+	      var type = this.props.type;
+
+	      var func = (0, _utilsScale.scale)(this.props);
+
+	      return func;
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props2 = this.props;
+	      var showAxis = _props2.showAxis;
+	      var gridAxisClassName = _props2.gridAxisClassName;
+	      var axisClassName = _props2.axisClassName;
+	      var type = _props2.type;
+
+	      var axisGroup = _reactFauxDom2['default'].createElement('g');
+
+	      if (type === 'x') var axisClasses = axisClassName + ' axis x';else if (type === 'y') var axisClasses = axisClassName + ' axis y';else if (type === 'gridx' || type === 'gridy') var axisClasses = gridAxisClassName + ' grid-axis axis';
+
+	      axisGroup.setAttribute('class', axisClasses);
+
+	      var axisDom = _d32['default'].select(axisGroup);
+
+	      axisDom.call(this._mkTickAxis());
+
+	      if (!showAxis) {
+	        axisDom.selectAll(".axis .tick text").style("opacity", "0");
+	        if (type === 'gridx' || type === 'gridy') {
+	          // hide domain in grids
+	          axisDom.selectAll(".axis .domain").style("opacity", "0");
+	        }
+	      }
+
+	      // basic styles
+	      axisDom.selectAll('.axis path').style('fill', 'none').style('stroke', '#000').style('shape-rendering', 'crispEdges');
+
+	      axisDom.selectAll('.axis line').style('fill', 'none').style('stroke', '#000').style('shape-rendering', 'crispEdges');
+
+	      axisDom.selectAll('.tick line').style('opacity', .2);
+
+	      axisDom.selectAll('.x.axis path').style('display', 'none');
+
+	      return axisDom.node().toReact();
+	    }
+	  }], [{
+	    key: 'defaultProps',
+	    value: {
+	      range: null,
+	      rangeRoundBands: null,
+	      domain: null,
+	      tickFormat: null,
+	      tickOrient: null
+	    },
+	    enumerable: true
+	  }, {
+	    key: 'PropTypes',
+	    value: {
+	      showAxis: _react.PropTypes.bool,
+	      type: _react.PropTypes.string,
+	      orient: _react.PropTypes.oneOf(['top', 'bottom', 'left', 'right']),
+	      tickOrient: _react.PropTypes.oneOf(['top', 'bottom', 'left', 'right'])
+	    },
+	    enumerable: true
+	  }]);
+
+	  return Axis;
+	})(_react.Component);
+
+	exports['default'] = Axis;
+	module.exports = exports['default'];
+
+/***/ },
+/* 156 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _axis = __webpack_require__(155);
+
+	var _axis2 = _interopRequireDefault(_axis);
+
+	var _label = __webpack_require__(157);
+
+	var _label2 = _interopRequireDefault(_label);
+
+	var _commonProps = __webpack_require__(87);
+
+	var _commonProps2 = _interopRequireDefault(_commonProps);
+
+	var Xaxis = (function (_Component) {
+	  _inherits(Xaxis, _Component);
+
+	  function Xaxis(props) {
+	    _classCallCheck(this, Xaxis);
+
+	    _get(Object.getPrototypeOf(Xaxis.prototype), 'constructor', this).call(this, props);
+	  }
+
+	  _createClass(Xaxis, [{
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var height = _props.height;
+	      var width = _props.width;
+	      var margins = _props.margins;
+	      var showXAxis = _props.showXAxis;
+	      var x = _props.x;
+	      var xAxisClassName = _props.xAxisClassName;
+	      var xDomain = _props.xDomain;
+	      var xRange = _props.xRange;
+	      var xRangeRoundBands = _props.xRangeRoundBands;
+	      var xScale = _props.xScale;
+	      var xOrient = _props.xOrient;
+	      var xTickOrient = _props.xTickOrient;
+	      var xTickPadding = _props.xTickPadding;
+	      var xInnerTickSize = _props.xInnerTickSize;
+	      var xOuterTickSize = _props.xOuterTickSize;
+	      var xTickFormat = _props.xTickFormat;
+	      var xTicks = _props.xTicks;
+	      var xLabel = _props.xLabel;
+	      var xLabelPosition = _props.xLabelPosition;
+	      var labelOffset = _props.labelOffset;
+
+	      var t;
+	      var axisLabel;
+
+	      if (!xRange) {
+	        xRange = [0, width - margins.left - margins.right];
+	      }
+
+	      if (xOrient === 'bottom') {
+	        // x - bottom
+	        t = 'translate(0, ' + (height - margins.bottom - margins.top) + ')';
+	      } else if (xOrient === 'top') {
+	        // x - top
+	        t = 'translate(0, 0)';
+	      }
+
+	      if (xLabel) {
+	        axisLabel = _react2['default'].createElement(_label2['default'], {
+	          height: height,
+	          width: width,
+	          margins: margins,
+	          labelTitle: xLabel,
+	          labelPosition: xLabelPosition,
+	          labelOffset: labelOffset,
+	          rangeRoundBands: xRangeRoundBands
+	        });
+	      }
+
+	      return _react2['default'].createElement(
+	        'g',
+	        { transform: t },
+	        _react2['default'].createElement(_axis2['default'], {
+	          height: height,
+	          width: width,
+	          margins: margins,
+	          showAxis: showXAxis,
+	          axisClassName: xAxisClassName,
+	          rangeRoundBands: xRangeRoundBands,
+	          type: 'x',
+	          proxy: x,
+	          domain: xDomain,
+	          range: xRange,
+	          scale: xScale,
+	          orient: xOrient,
+	          tickOrient: xTickOrient,
+	          tickFormat: xTickFormat,
+	          tickPadding: xTickPadding,
+	          innerTickSize: xInnerTickSize,
+	          outerTickSize: xOuterTickSize,
+	          ticks: xTicks
+	        }),
+	        axisLabel
+	      );
+	    }
+	  }], [{
+	    key: 'defaultProps',
+	    value: Object.assign(_commonProps2['default'], {
+	      showXAxis: true,
+	      xAxisClassName: 'react-d3-core__axis__xAxis',
+	      xScale: 'linear',
+	      xOrient: 'bottom',
+	      xTickOrient: 'bottom',
+	      xLabelPosition: 'bottom',
+	      xTickPadding: 3,
+	      xInnerTickSize: 6,
+	      xOuterTickSize: 6
+	    }),
+	    enumerable: true
+	  }, {
+	    key: 'propTypes',
+	    value: {
+	      height: _react.PropTypes.number.isRequired,
+	      width: _react.PropTypes.number.isRequired,
+	      margins: _react.PropTypes.object.isRequired,
+	      showXAxis: _react.PropTypes.bool,
+	      x: _react.PropTypes.func.isRequired,
+	      xDomain: _react.PropTypes.array,
+	      xRange: _react.PropTypes.array,
+	      xScale: _react.PropTypes.string.isRequired,
+	      xOrient: _react.PropTypes.oneOf(['top', 'bottom']),
+	      xTickOrient: _react.PropTypes.oneOf(['top', 'bottom']),
+	      xAxisClassName: _react.PropTypes.string,
+	      xInnerTickSize: _react.PropTypes.number,
+	      xOuterTickSize: _react.PropTypes.number,
+	      xTickPadding: _react.PropTypes.number,
+	      xTickFormat: _react.PropTypes.func,
+	      xTicks: _react.PropTypes.array
+	    },
+	    enumerable: true
+	  }]);
+
+	  return Xaxis;
+	})(_react.Component);
+
+	exports['default'] = Xaxis;
+	module.exports = exports['default'];
+
+/***/ },
+/* 157 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
+
+	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
+
+	var _commonProps = __webpack_require__(87);
+
+	var _commonProps2 = _interopRequireDefault(_commonProps);
+
+	var Label = (function (_Component) {
+	  _inherits(Label, _Component);
+
+	  function Label(props) {
+	    _classCallCheck(this, Label);
+
+	    _get(Object.getPrototypeOf(Label.prototype), 'constructor', this).call(this, props);
+	  }
+
+	  _createClass(Label, [{
+	    key: '_mkLabel',
+	    value: function _mkLabel(dom) {
+	      var _props = this.props;
+	      var height = _props.height;
+	      var width = _props.width;
+	      var margins = _props.margins;
+	      var labelOffset = _props.labelOffset;
+	      var labelTitle = _props.labelTitle;
+	      var labelPosition = _props.labelPosition;
+	      var vTransform = _props.vTransform;
+	      var hTransform = _props.hTransform;
+	      var textAnchor = _props.textAnchor;
+
+	      var labelDom = _d32['default'].select(dom);
+	      var fixWidth = width - margins.left - margins.right;
+	      var fixHeight = height - margins.top - margins.bottom;
+
+	      if (labelPosition === 'top') {
+
+	        labelDom.attr('transform', hTransform).attr('y', -labelOffset).attr('x', fixWidth / 2).style('text-anchor', textAnchor).text(labelTitle);
+	      } else if (labelPosition === 'bottom') {
+
+	        labelDom.attr('transform', hTransform).attr('y', +labelOffset).attr('x', fixWidth / 2).style('text-anchor', textAnchor).text(labelTitle);
+	      } else if (labelPosition === 'left') {
+
+	        labelDom.attr('transform', vTransform).attr('y', -labelOffset).attr('x', -fixHeight / 2).style('text-anchor', textAnchor).text(labelTitle);
+	      } else if (labelPosition === 'right') {
+
+	        labelDom.attr('transform', vTransform).attr('y', +labelOffset).attr('x', -fixHeight / 2).style('text-anchor', textAnchor).text(labelTitle);
+	      }
+
+	      return labelDom;
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var labelClassName = this.props.labelClassName;
+
+	      var labelText = _reactFauxDom2['default'].createElement('text');
+	      var labelClasses = labelClassName + ' label';
+	      labelText.setAttribute('class', labelClasses);
+
+	      var labelDom = this._mkLabel(labelText);
+
+	      return labelDom.node().toReact();
+	    }
+	  }], [{
+	    key: 'defaultProps',
+	    value: Object.assign(_commonProps2['default'], {
+	      hTransform: 'rotate(0)',
+	      vTransform: 'rotate(270)',
+	      labelTitle: 'label title',
+	      labelPosition: 'bottom',
+	      labelOffset: 40,
+	      textAnchor: 'middle',
+	      labelClassName: 'react-d3-core__label'
+	    }),
+	    enumerable: true
+	  }, {
+	    key: 'propTypes',
+	    value: {
+	      height: _react.PropTypes.number.isRequired,
+	      width: _react.PropTypes.number.isRequired,
+	      margins: _react.PropTypes.object.isRequired,
+	      hTransform: _react.PropTypes.string,
+	      vTransform: _react.PropTypes.string,
+	      labelTitle: _react.PropTypes.string,
+	      labelPosition: _react.PropTypes.oneOf(['top', 'bottom', 'left', 'right']),
+	      labelOffset: _react.PropTypes.number,
+	      textAnchor: _react.PropTypes.string,
+	      labelClassName: _react.PropTypes.string
+	    },
+	    enumerable: true
+	  }]);
+
+	  return Label;
+	})(_react.Component);
+
+	exports['default'] = Label;
+	module.exports = exports['default'];
+
+/***/ },
+/* 158 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _axis = __webpack_require__(155);
+
+	var _axis2 = _interopRequireDefault(_axis);
+
+	var _label = __webpack_require__(157);
+
+	var _label2 = _interopRequireDefault(_label);
+
+	var _commonProps = __webpack_require__(87);
+
+	var _commonProps2 = _interopRequireDefault(_commonProps);
+
+	var Yaxis = (function (_Component) {
+	  _inherits(Yaxis, _Component);
+
+	  function Yaxis(props) {
+	    _classCallCheck(this, Yaxis);
+
+	    _get(Object.getPrototypeOf(Yaxis.prototype), 'constructor', this).call(this, props);
+	  }
+
+	  _createClass(Yaxis, [{
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var width = _props.width;
+	      var height = _props.height;
+	      var margins = _props.margins;
+	      var y = _props.y;
+	      var yAxisClassName = _props.yAxisClassName;
+	      var yDomain = _props.yDomain;
+	      var yRange = _props.yRange;
+	      var yRangeRoundBands = _props.yRangeRoundBands;
+	      var yScale = _props.yScale;
+	      var yOrient = _props.yOrient;
+	      var yTickOrient = _props.yTickOrient;
+	      var yTickFormat = _props.yTickFormat;
+	      var yTickPadding = _props.yTickPadding;
+	      var yInnerTickSize = _props.yInnerTickSize;
+	      var yOuterTickSize = _props.yOuterTickSize;
+	      var yTicks = _props.yTicks;
+	      var yLabel = _props.yLabel;
+	      var yLabelPosition = _props.yLabelPosition;
+	      var labelOffset = _props.labelOffset;
+	      var showYAxis = _props.showYAxis;
+
+	      var t;
+	      var axisLabel;
+
+	      if (!yRange) {
+	        yRange = [height - margins.top - margins.bottom, 0];
+	      }
+
+	      if (yOrient === 'right') {
+	        // y - right
+	        t = 'translate(' + (width - margins.right - margins.left) + ', 0)';
+	      } else if (yOrient === 'left') {
+	        // y - left
+	        t = 'translate(0, 0)';
+	      }
+
+	      if (yLabel) {
+	        axisLabel = _react2['default'].createElement(_label2['default'], {
+	          height: height,
+	          width: width,
+	          margins: margins,
+	          labelTitle: yLabel,
+	          labelPosition: yLabelPosition,
+	          labelOffset: labelOffset
+	        });
+	      }
+
+	      return _react2['default'].createElement(
+	        'g',
+	        { transform: t },
+	        _react2['default'].createElement(_axis2['default'], {
+	          height: height,
+	          width: width,
+	          margins: margins,
+	          showAxis: showYAxis,
+	          axisClassName: yAxisClassName,
+	          rangeRoundBands: yRangeRoundBands,
+	          type: 'y',
+	          proxy: y,
+	          domain: yDomain,
+	          range: yRange,
+	          scale: yScale,
+	          orient: yOrient,
+	          tickOrient: yTickOrient,
+	          tickFormat: yTickFormat,
+	          tickPadding: yTickPadding,
+	          innerTickSize: yInnerTickSize,
+	          outerTickSize: yOuterTickSize,
+	          ticks: yTicks
+	        }),
+	        axisLabel
+	      );
+	    }
+	  }], [{
+	    key: 'defaultProps',
+	    value: Object.assign(_commonProps2['default'], {
+	      showYAxis: true,
+	      yAxisClassName: 'react-d3-core__axis__yAxis',
+	      yScale: 'linear',
+	      yOrient: 'left',
+	      yTickOrient: 'left',
+	      yLabelPosition: 'left',
+	      yTickPadding: 3,
+	      yInnerTickSize: 6,
+	      yOuterTickSize: 6
+	    }),
+	    enumerable: true
+	  }, {
+	    key: 'propTypes',
+	    value: {
+	      height: _react.PropTypes.number.isRequired,
+	      width: _react.PropTypes.number.isRequired,
+	      margins: _react.PropTypes.object.isRequired,
+	      showXAxis: _react.PropTypes.bool,
+	      y: _react.PropTypes.func.isRequired,
+	      yDomain: _react.PropTypes.array,
+	      yRange: _react.PropTypes.array,
+	      yScale: _react.PropTypes.string.isRequired,
+	      yOrient: _react.PropTypes.oneOf(['left', 'right']),
+	      yTickOrient: _react.PropTypes.oneOf(['left', 'right']),
+	      yAxisClassName: _react.PropTypes.string,
+	      yInnerTickSize: _react.PropTypes.number,
+	      yOuterTickSize: _react.PropTypes.number,
+	      yTickPadding: _react.PropTypes.number,
+	      yTickFormat: _react.PropTypes.func,
+	      yTicks: _react.PropTypes.array
+	    },
+	    enumerable: true
+	  }]);
+
+	  return Yaxis;
+	})(_react.Component);
+
+	exports['default'] = Yaxis;
+	module.exports = exports['default'];
+
+/***/ },
+/* 159 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _axisAxis = __webpack_require__(155);
+
+	var _axisAxis2 = _interopRequireDefault(_axisAxis);
+
+	var _commonProps = __webpack_require__(87);
+
+	var _commonProps2 = _interopRequireDefault(_commonProps);
+
+	var Grid = (function (_Component) {
+	  _inherits(Grid, _Component);
+
+	  function Grid(props) {
+	    _classCallCheck(this, Grid);
+
+	    _get(Object.getPrototypeOf(Grid.prototype), 'constructor', this).call(this, props);
+	  }
+
+	  _createClass(Grid, [{
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var height = _props.height;
+	      var width = _props.width;
+	      var margins = _props.margins;
+	      var type = _props.type;
+	      var gridAxisClassName = _props.gridAxisClassName;
+	      var xRangeRoundBands = _props.xRangeRoundBands;
+	      var x = _props.x;
+	      var xDomain = _props.xDomain;
+	      var xRange = _props.xRange;
+	      var xScale = _props.xScale;
+	      var yRangeRoundBands = _props.yRangeRoundBands;
+	      var y = _props.y;
+	      var yDomain = _props.yDomain;
+	      var yRange = _props.yRange;
+	      var yScale = _props.yScale;
+
+	      var gridAxis;
+	      var t;
+
+	      if (!yRange) {
+	        yRange = [height - margins.top - margins.bottom, 0];
+	      }
+
+	      if (!xRange) {
+	        xRange = [0, width - margins.left - margins.right];
+	      }
+
+	      if (type === 'x') {
+	        t = 'translate(0, ' + (height - margins.bottom - margins.top) + ')';
+	        var tickSize = height - margins.top - margins.bottom;
+
+	        // if grid axis don't pass customize ticks.
+	        gridAxis = _react2['default'].createElement(_axisAxis2['default'], {
+	          height: height,
+	          width: width,
+	          margins: margins,
+	          type: 'gridx',
+	          showAxis: false,
+	          gridAxisClassName: gridAxisClassName,
+	          rangeRoundBands: xRangeRoundBands,
+	          tickOrient: 'bottom',
+	          orient: 'bottom',
+	          outerTickSize: 0,
+	          tickPadding: 10,
+	          tickFormat: null,
+	          innerTickSize: -tickSize,
+	          proxy: x,
+	          domain: xDomain,
+	          range: xRange,
+	          scale: xScale
+	        });
+	      } else if (type === 'y') {
+	        t = 'translate(0, 0)';
+	        var tickSize = width - margins.left - margins.right;
+
+	        // if grid axis don't pass customize ticks.
+	        gridAxis = _react2['default'].createElement(_axisAxis2['default'], {
+	          height: height,
+	          width: width,
+	          margins: margins,
+	          type: 'gridy',
+	          showAxis: false,
+	          gridAxisClassName: gridAxisClassName,
+	          rangeRoundBands: yRangeRoundBands,
+	          tickOrient: 'left',
+	          orient: 'left',
+	          outerTickSize: 0,
+	          tickPadding: 10,
+	          innerTickSize: -tickSize,
+	          tickFormat: null,
+	          proxy: y,
+	          scale: yScale,
+	          domain: yDomain,
+	          range: yRange
+	        });
+	      }
+
+	      return _react2['default'].createElement(
+	        'g',
+	        { transform: t },
+	        gridAxis
+	      );
+	    }
+	  }], [{
+	    key: 'defaultProps',
+	    value: Object.assign(_commonProps2['default'], {
+	      type: 'x',
+	      gridAxisClassName: 'react-d3-core__grid_axis'
+	    }),
+	    enumerable: true
+	  }, {
+	    key: 'propTypes',
+	    value: {
+	      height: _react.PropTypes.number.isRequired,
+	      width: _react.PropTypes.number.isRequired,
+	      margins: _react.PropTypes.object.isRequired,
+	      type: _react.PropTypes.oneOf(['x', 'y']).isRequired,
+	      gridAxisClassName: _react.PropTypes.string,
+	      x: _react.PropTypes.func,
+	      xDomain: _react.PropTypes.array,
+	      xRange: _react.PropTypes.array,
+	      xScale: _react.PropTypes.oneOf(['linear', 'identity', 'sqrt', 'pow', 'log', 'quantize', 'quantile', 'ordinal', 'time']).isRequired,
+	      xRangeRoundBands: _react.PropTypes.object,
+	      y: _react.PropTypes.func,
+	      yDomain: _react.PropTypes.array,
+	      yRange: _react.PropTypes.array,
+	      yScale: _react.PropTypes.oneOf(['linear', 'identity', 'sqrt', 'pow', 'log', 'quantize', 'quantile', 'ordinal', 'time']).isRequired,
+	      yRangeRoundBands: _react.PropTypes.object
+	    },
+	    enumerable: true
+	  }]);
+
+	  return Grid;
+	})(_react.Component);
+
+	exports['default'] = Grid;
+	module.exports = exports['default'];
+
+/***/ },
+/* 160 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	exports.xDomain = xDomain;
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	function xDomain(props) {
+	  var data = props.data;
+	  var x = props.x;
+	  var xScale = props.xScale;
+	  var xDomain = props.xDomain;
+
+	  if (xDomain) return xDomain;
+
+	  if (xScale === 'ordinal') {
+	    return data.map(function (d) {
+	      return x(d);
+	    });
+	  } else {
+	    return _d32['default'].extent(data, function (d) {
+	      return x(d);
+	    });
+	  }
+	}
+
+/***/ },
+/* 161 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	exports.yDomain = yDomain;
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	function yDomain(props, stack) {
+	  var data = props.data;
+	  var chartSeries = props.chartSeries;
+	  var y = props.y;
+	  var yDomain = props.yDomain;
+
+	  if (yDomain) return yDomain;
+
+	  if (stack) {
+	    // stack
+	    var max = 0;
+	    var min = 0;
+
+	    data.forEach(function (d) {
+	      var totalTop = 0;
+	      var totalBottom = 0;
+
+	      chartSeries.forEach(function (sd) {
+	        var field = sd.field;
+
+	        if (d[field] > 0) {
+	          totalTop += y(d[field]);
+	        } else if (d[field] < 0) {
+	          totalBottom += y(d[field]);
+	        }
+	      });
+
+	      if (totalTop > max) max = totalTop;
+	      if (totalBottom < min) min = totalBottom;
+	    });
+
+	    return [min, max];
+	  } else {
+	    // not stack, single
+	    var domainArr = chartSeries.map(function (d) {
+	      var field = d.field;
+	      var extent = _d32['default'].extent(data, function (dt) {
+	        return y(dt[field]);
+	      });
+
+	      return extent;
+	    });
+
+	    return _d32['default'].extent([].concat.apply([], domainArr));
+	  }
+	}
+
+/***/ },
+/* 162 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var PieLayout = (function (_Component) {
+	  _inherits(PieLayout, _Component);
+
+	  function PieLayout(props) {
+	    _classCallCheck(this, PieLayout);
+
+	    _get(Object.getPrototypeOf(PieLayout.prototype), "constructor", this).call(this, props);
+	  }
+
+	  _createClass(PieLayout, [{
+	    key: "_mkSeries",
+	    value: function _mkSeries() {
+	      var _props = this.props;
+	      var data = _props.data;
+	      var chartSeries = _props.chartSeries;
+	      var value = _props.value;
+	      var name = _props.name;
+	      var categoricalColors = _props.categoricalColors;
+
+	      var chartSeriesData = chartSeries.map(function (f, i) {
+
+	        // set a color if not set
+	        if (!f.color) f.color = categoricalColors(i);
+
+	        // set name if not set
+	        if (!f.name) f.name = f.field;
+
+	        var val;
+
+	        data.forEach(function (d) {
+	          if (name(d) === f.field) val = d;
+	        });
+
+	        return Object.assign(f, { value: value(val) });
+	      });
+
+	      return chartSeriesData;
+	    }
+	  }], [{
+	    key: "propTypes",
+	    value: {
+	      title: _react.PropTypes.string,
+	      data: _react.PropTypes.array.isRequired,
+	      chartSeries: _react.PropTypes.array.isRequired,
+	      name: _react.PropTypes.func.isRequired,
+	      value: _react.PropTypes.func.isRequired,
+	      width: _react.PropTypes.number,
+	      height: _react.PropTypes.number,
+	      id: _react.PropTypes.string,
+	      margins: _react.PropTypes.object,
+	      svgClassName: _react.PropTypes.string,
+	      titleClassName: _react.PropTypes.string,
+	      categoricalColors: _react.PropTypes.func,
+	      radius: _react.PropTypes.number,
+	      outerRadius: _react.PropTypes.number,
+	      innerRadius: _react.PropTypes.number,
+	      pieSort: _react.PropTypes.func
+	    },
+	    enumerable: true
+	  }]);
+
+	  return PieLayout;
+	})(_react.Component);
+
+	exports["default"] = PieLayout;
+	module.exports = exports["default"];
+
+/***/ },
+/* 163 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -22352,7 +23717,120 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactFauxDom = __webpack_require__(87);
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
+
+	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
+
+	var Line = (function (_Component) {
+	  _inherits(Line, _Component);
+
+	  function Line(props) {
+	    _classCallCheck(this, Line);
+
+	    _get(Object.getPrototypeOf(Line.prototype), 'constructor', this).call(this, props);
+	  }
+
+	  _createClass(Line, [{
+	    key: '_mkLine',
+	    value: function _mkLine(dom) {
+	      var _props = this.props;
+	      var dataset = _props.dataset;
+	      var lineClassName = _props.lineClassName;
+	      var showBrush = _props.showBrush;
+	      var showZoom = _props.showZoom;
+	      var duration = _props.duration;
+	      var chartId = _props.chartId;
+
+	      // make line
+	      var line = _d32['default'].select(dom);
+
+	      line.datum(dataset.data).style("stroke", dataset.color).attr("class", lineClassName + ' line').attr("d", this._setAxes());
+
+	      if (dataset.style) {
+	        for (var key in dataset.style) {
+	          line.style(key, dataset.style[key]);
+	        }
+	      }
+
+	      if (showBrush) line.style('clip-path', 'url(#react-d3-basic__brush_focus__clip__' + chartId + ')');
+
+	      if (showZoom) line.style('clip-path', 'url(#react-d3-basic__zoom_focus__clip)__' + chartId + ')');
+
+	      return line;
+	    }
+	  }, {
+	    key: '_setAxes',
+	    value: function _setAxes() {
+	      var _props2 = this.props;
+	      var x = _props2.x;
+	      var y = _props2.y;
+	      var xScaleSet = _props2.xScaleSet;
+	      var yScaleSet = _props2.yScaleSet;
+	      var interpolate = _props2.interpolate;
+
+	      return _d32['default'].svg.line().interpolate(interpolate).x(function (d) {
+	        return xScaleSet(d.x);
+	      }).y(function (d) {
+	        return yScaleSet(d.y);
+	      });
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var linePath = _reactFauxDom2['default'].createElement('path');
+	      var line = this._mkLine(linePath);
+
+	      return line.node().toReact();
+	    }
+	  }], [{
+	    key: 'defaultProps',
+	    value: {
+	      interpolate: null,
+	      lineClassName: 'react-d3-basic__line',
+	      chartId: 0
+	    },
+	    enumerable: true
+	  }]);
+
+	  return Line;
+	})(_react.Component);
+
+	exports['default'] = Line;
+	module.exports = exports['default'];
+
+/***/ },
+/* 164 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
 
 	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
 
@@ -22375,9 +23853,10 @@ var ReactD3Brush =
 	      var showBrush = _props.showBrush;
 	      var showZoom = _props.showZoom;
 	      var duration = _props.duration;
+	      var chartId = _props.chartId;
 
 	      // make area
-	      var area = d3.select(dom);
+	      var area = _d32['default'].select(dom);
 
 	      area.datum(dataset.data).attr("class", areaClassName + ' area').style("fill", dataset.color).style("stroke", dataset.color).attr("d", this._setAxes());
 
@@ -22387,9 +23866,9 @@ var ReactD3Brush =
 	        }
 	      }
 
-	      if (showBrush) area.style('clip-path', 'url(#react-d3-basic__brush_focus__clip)');
+	      if (showBrush) area.style('clip-path', 'url(#react-d3-basic__brush_focus__clip__' + chartId + ')');
 
-	      if (showZoom) area.style('clip-path', 'url(#react-d3-basic__zoom_focus__clip)');
+	      if (showZoom) area.style('clip-path', 'url(#react-d3-basic__zoom_focus__clip__' + chartId + ')');
 
 	      return area;
 	    }
@@ -22405,7 +23884,7 @@ var ReactD3Brush =
 	      var yScaleSet = _props2.yScaleSet;
 	      var interpolate = _props2.interpolate;
 
-	      return d3.svg.area().interpolate(interpolate).x(function (d) {
+	      return _d32['default'].svg.area().interpolate(interpolate).x(function (d) {
 	        return xScaleSet(d.x);
 	      }).y0(function (d) {
 	        var domain = yScaleSet.domain();
@@ -22434,7 +23913,8 @@ var ReactD3Brush =
 	    value: {
 	      interpolate: null,
 	      duration: 500,
-	      areaClassName: 'react-d3-basic__area'
+	      areaClassName: 'react-d3-basic__area',
+	      chartId: 0
 	    },
 	    enumerable: true
 	  }]);
@@ -22444,13 +23924,12 @@ var ReactD3Brush =
 
 	exports['default'] = AreaSimple;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 151 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -22470,7 +23949,11 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactFauxDom = __webpack_require__(87);
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
 
 	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
 
@@ -22491,12 +23974,13 @@ var ReactD3Brush =
 	      var areaClassName = _props.areaClassName;
 	      var showBrush = _props.showBrush;
 	      var showZoom = _props.showZoom;
+	      var chartId = _props.chartId;
 
 	      var _setStack = this._setStack();
 	      var _setAxis = this._setAxes();
 
 	      // make areas
-	      var chart = d3.select(dom).attr("class", areaClassName + ' area-group');
+	      var chart = _d32['default'].select(dom).attr("class", areaClassName + ' area-group');
 
 	      chart.selectAll("path").data(_setStack(dataset)).enter().append("path").attr("class", "area").style("fill", function (d) {
 	        return d.color;
@@ -22512,9 +23996,9 @@ var ReactD3Brush =
 	        return s;
 	      });
 
-	      if (showBrush) chart.selectAll("path").style('clip-path', 'url(#react-d3-basic__brush_focus__clip)');
+	      if (showBrush) chart.selectAll("path").style('clip-path', 'url(#react-d3-basic__brush_focus__clip__' + chartId + ')');
 
-	      if (showZoom) chart.selectAll("path").style('clip-path', 'url(#react-d3-basic__zoom_focus__clip)');
+	      if (showZoom) chart.selectAll("path").style('clip-path', 'url(#react-d3-basic__zoom_focus__clip__' + chartId + ')');
 
 	      return chart;
 	    }
@@ -22544,7 +24028,7 @@ var ReactD3Brush =
 	          }
 	        };
 	      };
-	      return d3.layout.stack().values(function (d) {
+	      return _d32['default'].layout.stack().values(function (d) {
 	        return d.data;
 	      }).out(buildOut(chartSeries.length));
 	    }
@@ -22560,7 +24044,7 @@ var ReactD3Brush =
 	      var yScaleSet = _props2.yScaleSet;
 	      var interpolate = _props2.interpolate;
 
-	      return d3.svg.area().interpolate(interpolate).x(function (d) {
+	      return _d32['default'].svg.area().interpolate(interpolate).x(function (d) {
 	        return xScaleSet(d.x);
 	      }).y0(function (d) {
 	        return yScaleSet(d.y0);
@@ -22581,7 +24065,8 @@ var ReactD3Brush =
 	    value: {
 	      areaClass: 'react-d3-basics__area_stack',
 	      interpolate: null,
-	      areaClassName: 'react-d3-basic__area_stack'
+	      areaClassName: 'react-d3-basic__area_stack',
+	      chartId: 0
 	    },
 	    enumerable: true
 	  }]);
@@ -22591,13 +24076,12 @@ var ReactD3Brush =
 
 	exports['default'] = AreaStack;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 152 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -22617,7 +24101,11 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactFauxDom = __webpack_require__(87);
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
 
 	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
 
@@ -22644,9 +24132,10 @@ var ReactD3Brush =
 	      var yScaleSet = _props.yScaleSet;
 	      var onMouseOut = _props.onMouseOut;
 	      var onMouseOver = _props.onMouseOver;
+	      var chartId = _props.chartId;
 
 	      // make areas
-	      var chart = d3.select(dom);
+	      var chart = _d32['default'].select(dom);
 
 	      var domain = yScaleSet.domain();
 	      var zeroBase;
@@ -22673,9 +24162,9 @@ var ReactD3Brush =
 	        }
 	      }
 
-	      if (showBrush) chart.selectAll("rect").style('clip-path', 'url(#react-d3-basic__brush_focus__clip)');
+	      if (showBrush) chart.selectAll("rect").style('clip-path', 'url(#react-d3-basic__brush_focus__clip__' + chartId + ')');
 
-	      if (showZoom) chart.selectAll("rect").style('clip-path', 'url(#react-d3-basic__zoom_focus__clip)');
+	      if (showZoom) chart.selectAll("rect").style('clip-path', 'url(#react-d3-basic__zoom_focus__clip__' + chartId + ')');
 
 	      return chart;
 	    }
@@ -22693,7 +24182,8 @@ var ReactD3Brush =
 	      interpolate: null,
 	      onMouseOver: function onMouseOver(d) {},
 	      onMouseOut: function onMouseOut(d) {},
-	      barClassName: 'react-d3-basic__bar'
+	      barClassName: 'react-d3-basic__bar',
+	      chartId: 0
 	    },
 	    enumerable: true
 	  }]);
@@ -22703,13 +24193,12 @@ var ReactD3Brush =
 
 	exports['default'] = Bar;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 153 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -22729,7 +24218,11 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactFauxDom = __webpack_require__(87);
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
 
 	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
 
@@ -22757,6 +24250,7 @@ var ReactD3Brush =
 	      var count = _props.count;
 	      var onMouseOut = _props.onMouseOut;
 	      var onMouseOver = _props.onMouseOver;
+	      var chartId = _props.chartId;
 
 	      var domain = yScaleSet.domain();
 	      var zeroBase;
@@ -22770,7 +24264,7 @@ var ReactD3Brush =
 	      }
 
 	      // make areas
-	      var chart = d3.select(dom).datum(dataset).attr("class", "bargroup");
+	      var chart = _d32['default'].select(dom).datum(dataset).attr("class", "bargroup");
 
 	      chart.selectAll("rect").data(dataset.data).enter().append("rect").attr("class", barClassName + ' bar').attr("width", x1.rangeBand()).attr("x", function (d) {
 	        return xScaleSet(d.x) ? xScaleSet(d.x) + x1.rangeBand() * count : -10000;
@@ -22788,7 +24282,7 @@ var ReactD3Brush =
 	        }
 	      }
 
-	      if (showZoom) chart.selectAll("rect").style('clip-path', 'url(#react-d3-basic__zoom_focus__clip)');
+	      if (showZoom) chart.selectAll("rect").style('clip-path', 'url(#react-d3-basic__zoom_focus__clip__' + chartId + ')');
 
 	      return chart;
 	    }
@@ -22805,7 +24299,8 @@ var ReactD3Brush =
 	    value: {
 	      onMouseOver: function onMouseOver(d) {},
 	      onMouseOut: function onMouseOut(d) {},
-	      barClassName: 'react-d3-basic__bar_group'
+	      barClassName: 'react-d3-basic__bar_group',
+	      chartId: 0
 	    },
 	    enumerable: true
 	  }]);
@@ -22815,13 +24310,12 @@ var ReactD3Brush =
 
 	exports['default'] = BarGroup;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 154 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -22841,7 +24335,11 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactFauxDom = __webpack_require__(87);
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
 
 	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
 
@@ -22867,11 +24365,12 @@ var ReactD3Brush =
 	      var yScaleSet = _props.yScaleSet;
 	      var onMouseOver = _props.onMouseOver;
 	      var onMouseOut = _props.onMouseOut;
+	      var chartId = _props.chartId;
 
 	      var _setStack = this._setStack();
 
 	      // make areas
-	      var chart = d3.select(dom).attr("class", "g");
+	      var chart = _d32['default'].select(dom).attr("class", "g");
 
 	      var domain = yScaleSet.domain();
 	      var zeroBase;
@@ -22906,7 +24405,7 @@ var ReactD3Brush =
 	        return Math.abs(yScaleSet(d.y) - yScaleSet(0));
 	      }).on("mouseover", onMouseOver).on("mouseout", onMouseOut);
 
-	      if (showZoom) barGroup.selectAll("rect").style('clip-path', 'url(#react-d3-basic__zoom_focus__clip)');
+	      if (showZoom) barGroup.selectAll("rect").style('clip-path', 'url(#react-d3-basic__zoom_focus__clip__' + chartId + ')');
 
 	      return chart;
 	    }
@@ -22936,7 +24435,7 @@ var ReactD3Brush =
 	          }
 	        };
 	      };
-	      return d3.layout.stack().values(function (d) {
+	      return _d32['default'].layout.stack().values(function (d) {
 	        return d.data;
 	      }).out(buildOut(chartSeries.length));
 	    }
@@ -22953,7 +24452,8 @@ var ReactD3Brush =
 	    value: {
 	      onMouseOver: function onMouseOver(d) {},
 	      onMouseOut: function onMouseOut(d) {},
-	      barClassName: 'react-d3-basic__bar_stack'
+	      barClassName: 'react-d3-basic__bar_stack',
+	      chartId: 0
 	    },
 	    enumerable: true
 	  }]);
@@ -22963,13 +24463,12 @@ var ReactD3Brush =
 
 	exports['default'] = BarStack;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 155 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -22989,7 +24488,11 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactFauxDom = __webpack_require__(87);
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
 
 	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
 
@@ -23015,17 +24518,17 @@ var ReactD3Brush =
 	      var onMouseOut = _props.onMouseOut;
 	      var onMouseOver = _props.onMouseOver;
 
-	      var arc = d3.svg.arc().outerRadius(outerRadius).innerRadius(innerRadius);
+	      var arc = _d32['default'].svg.arc().outerRadius(outerRadius).innerRadius(innerRadius);
 
-	      var arcOver = d3.svg.arc().outerRadius(outerRadius + 10).innerRadius(innerRadius);
+	      var arcOver = _d32['default'].svg.arc().outerRadius(outerRadius + 10).innerRadius(innerRadius);
 
-	      var pie = d3.layout.pie().sort(function (a, b) {
+	      var pie = _d32['default'].layout.pie().sort(function (a, b) {
 	        return pieSort(a.value, b.value);
 	      }).value(function (d) {
 	        return d.value;
 	      });
 
-	      var pieDom = d3.select(dom);
+	      var pieDom = _d32['default'].select(dom);
 
 	      var g = pieDom.selectAll('.arc').data(pie(chartSeriesData)).enter().append('g').attr('class', 'arc');
 
@@ -23091,13 +24594,12 @@ var ReactD3Brush =
 
 	exports['default'] = Pie;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 156 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -23117,7 +24619,11 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactFauxDom = __webpack_require__(87);
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
+	var _reactFauxDom = __webpack_require__(92);
 
 	var _reactFauxDom2 = _interopRequireDefault(_reactFauxDom);
 
@@ -23146,6 +24652,7 @@ var ReactD3Brush =
 	      var showZoom = _props.showZoom;
 	      var brushSymbol = _props.brushSymbol;
 	      var duration = _props.duration;
+	      var chartId = _props.chartId;
 
 	      var symbol = dataset.symbol ? dataset.symbol : defaultSymbol;
 	      var symbolSize = dataset.symbolSize ? dataset.symbolSize : defaultSymbolSize;
@@ -23156,11 +24663,11 @@ var ReactD3Brush =
 	        symbolSize = 4;
 	      }
 
-	      var dots = d3.select(dom);
+	      var dots = _d32['default'].select(dom);
 
 	      dots.selectAll('' + scatterClassName).data(dataset.data).enter().append("path").attr('class', 'react-d3-basic__scatter__path').style('fill', dataset.color).attr("transform", function (d) {
 	        return "translate(" + xScaleSet(d.x) + "," + yScaleSet(d.y) + ")";
-	      }).attr("d", d3.svg.symbol().size(function (d) {
+	      }).attr("d", _d32['default'].svg.symbol().size(function (d) {
 	        return symbolSize * symbolSize;
 	      }).type(symbol));
 
@@ -23170,9 +24677,9 @@ var ReactD3Brush =
 	        }
 	      }
 
-	      if (showBrush) d3.select(dom).style('clip-path', 'url(#react-d3-basic__brush_focus__clip)');
+	      if (showBrush) _d32['default'].select(dom).style('clip-path', 'url(#react-d3-basic__brush_focus__clip__' + chartId + ')');
 
-	      if (showZoom) d3.select(dom).style('clip-path', 'url(#react-d3-basic__zoom_focus__clip)');
+	      if (showZoom) _d32['default'].select(dom).style('clip-path', 'url(#react-d3-basic__zoom_focus__clip__' + chartId + ')');
 
 	      return dots;
 	    }
@@ -23190,7 +24697,8 @@ var ReactD3Brush =
 	      defaultSymbol: 'circle',
 	      defaultSymbolSize: 10,
 	      duration: 1000,
-	      scatterClassName: 'react-d3-basic__scatter'
+	      scatterClassName: 'react-d3-basic__scatter',
+	      chartId: 0
 	    },
 	    enumerable: true
 	  }]);
@@ -23200,10 +24708,9 @@ var ReactD3Brush =
 
 	exports['default'] = Scatter;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 157 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23228,25 +24735,25 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactD3Core = __webpack_require__(3);
+	var _reactD3Core = __webpack_require__(85);
 
 	var _inheritXyPlot = __webpack_require__(84);
 
 	var _inheritXyPlot2 = _interopRequireDefault(_inheritXyPlot);
 
-	var _componentsLine = __webpack_require__(86);
+	var _componentsLine = __webpack_require__(163);
 
 	var _componentsLine2 = _interopRequireDefault(_componentsLine);
 
-	var _componentsArea = __webpack_require__(150);
+	var _componentsArea = __webpack_require__(164);
 
 	var _componentsArea2 = _interopRequireDefault(_componentsArea);
 
-	var _componentsScatter = __webpack_require__(156);
+	var _componentsScatter = __webpack_require__(170);
 
 	var _componentsScatter2 = _interopRequireDefault(_componentsScatter);
 
-	var _commonProps = __webpack_require__(158);
+	var _commonProps = __webpack_require__(172);
 
 	var _commonProps2 = _interopRequireDefault(_commonProps);
 
@@ -23352,7 +24859,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 158 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23394,7 +24901,7 @@ var ReactD3Brush =
 	exports.pieProps = pieProps;
 
 /***/ },
-/* 159 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23419,17 +24926,17 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactD3Core = __webpack_require__(3);
+	var _reactD3Core = __webpack_require__(85);
 
 	var _inheritXyPlot = __webpack_require__(84);
 
 	var _inheritXyPlot2 = _interopRequireDefault(_inheritXyPlot);
 
-	var _componentsScatter = __webpack_require__(156);
+	var _componentsScatter = __webpack_require__(170);
 
 	var _componentsScatter2 = _interopRequireDefault(_componentsScatter);
 
-	var _commonProps = __webpack_require__(158);
+	var _commonProps = __webpack_require__(172);
 
 	var _commonProps2 = _interopRequireDefault(_commonProps);
 
@@ -23517,7 +25024,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 160 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23542,17 +25049,17 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactD3Core = __webpack_require__(3);
+	var _reactD3Core = __webpack_require__(85);
 
 	var _inheritXyPlot = __webpack_require__(84);
 
 	var _inheritXyPlot2 = _interopRequireDefault(_inheritXyPlot);
 
-	var _componentsArea_stack = __webpack_require__(151);
+	var _componentsArea_stack = __webpack_require__(165);
 
 	var _componentsArea_stack2 = _interopRequireDefault(_componentsArea_stack);
 
-	var _commonProps = __webpack_require__(158);
+	var _commonProps = __webpack_require__(172);
 
 	var _commonProps2 = _interopRequireDefault(_commonProps);
 
@@ -23635,7 +25142,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 161 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23660,17 +25167,17 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactD3Core = __webpack_require__(3);
+	var _reactD3Core = __webpack_require__(85);
 
 	var _inheritXyPlot = __webpack_require__(84);
 
 	var _inheritXyPlot2 = _interopRequireDefault(_inheritXyPlot);
 
-	var _componentsBar = __webpack_require__(152);
+	var _componentsBar = __webpack_require__(166);
 
 	var _componentsBar2 = _interopRequireDefault(_componentsBar);
 
-	var _commonProps = __webpack_require__(158);
+	var _commonProps = __webpack_require__(172);
 
 	var _commonProps2 = _interopRequireDefault(_commonProps);
 
@@ -23758,10 +25265,10 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 162 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -23783,17 +25290,17 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactD3Core = __webpack_require__(3);
+	var _reactD3Core = __webpack_require__(85);
 
 	var _inheritXyPlot = __webpack_require__(84);
 
 	var _inheritXyPlot2 = _interopRequireDefault(_inheritXyPlot);
 
-	var _componentsBar_group = __webpack_require__(153);
+	var _componentsBar_group = __webpack_require__(167);
 
 	var _componentsBar_group2 = _interopRequireDefault(_componentsBar_group);
 
-	var _commonProps = __webpack_require__(158);
+	var _commonProps = __webpack_require__(172);
 
 	var _commonProps2 = _interopRequireDefault(_commonProps);
 
@@ -23899,10 +25406,9 @@ var ReactD3Brush =
 
 	exports['default'] = BarGroupChart;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 163 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23927,17 +25433,17 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactD3Core = __webpack_require__(3);
+	var _reactD3Core = __webpack_require__(85);
 
 	var _inheritXyPlot = __webpack_require__(84);
 
 	var _inheritXyPlot2 = _interopRequireDefault(_inheritXyPlot);
 
-	var _componentsBar_stack = __webpack_require__(154);
+	var _componentsBar_stack = __webpack_require__(168);
 
 	var _componentsBar_stack2 = _interopRequireDefault(_componentsBar_stack);
 
-	var _commonProps = __webpack_require__(158);
+	var _commonProps = __webpack_require__(172);
 
 	var _commonProps2 = _interopRequireDefault(_commonProps);
 
@@ -24021,7 +25527,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 164 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24046,17 +25552,17 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _inheritPieLayout = __webpack_require__(85);
+	var _inheritPieLayout = __webpack_require__(162);
 
 	var _inheritPieLayout2 = _interopRequireDefault(_inheritPieLayout);
 
-	var _reactD3Core = __webpack_require__(3);
+	var _reactD3Core = __webpack_require__(85);
 
-	var _componentsPie = __webpack_require__(155);
+	var _componentsPie = __webpack_require__(169);
 
 	var _componentsPie2 = _interopRequireDefault(_componentsPie);
 
-	var _commonProps = __webpack_require__(158);
+	var _commonProps = __webpack_require__(172);
 
 	var PieChart = (function (_PieLayout) {
 	  _inherits(PieChart, _PieLayout);
@@ -24112,7 +25618,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 165 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -24137,7 +25643,7 @@ var ReactD3Brush =
 
 	var _reactD3Core = __webpack_require__(3);
 
-	var _commonProps = __webpack_require__(166);
+	var _commonProps = __webpack_require__(180);
 
 	var _commonProps2 = _interopRequireDefault(_commonProps);
 
@@ -24239,7 +25745,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 166 */
+/* 180 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -24261,15 +25767,16 @@ var ReactD3Brush =
 	  },
 	  xScale: 'linear',
 	  yScale: 'linear',
-	  brushHeight: brushHeight
+	  brushHeight: brushHeight,
+	  chartId: 0
 	};
 	module.exports = exports['default'];
 
 /***/ },
-/* 167 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(d3) {"use strict";
+	"use strict";
 
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
@@ -24297,11 +25804,15 @@ var ReactD3Brush =
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
+	var _d3 = __webpack_require__(5);
+
+	var _d32 = _interopRequireDefault(_d3);
+
 	var _reactD3Core = __webpack_require__(3);
 
 	var _reactD3Basic = __webpack_require__(82);
 
-	var _commonProps = __webpack_require__(166);
+	var _commonProps = __webpack_require__(180);
 
 	var _commonProps2 = _interopRequireDefault(_commonProps);
 
@@ -24370,21 +25881,22 @@ var ReactD3Brush =
 	      var width = _props3.width;
 	      var brushMargins = _props3.brushMargins;
 
-	      var brush = d3.svg.brush().x(xBrushScaleSet).on("brush", function () {
+	      var brush = _d32['default'].svg.brush().x(xBrushScaleSet).on("brush", function () {
 	        var newDomain = brush.empty() ? xBrushScaleSet.domain() : brush.extent();
 
 	        if (brushType === 'line' || brushType === 'scatter' || brushType === 'area_stack') {
-	          setDomain("x", newDomain);
+
+	          if (newDomain.length) setDomain("x", newDomain);
 	        } else if (brushType === 'bar' || brushType === 'bar_group' || brushType === 'bar_stack') {
 	          var selected = xBrushScaleSet.domain().filter(function (d) {
 	            return newDomain[0] <= xBrushScaleSet(d) && xBrushScaleSet(d) <= newDomain[1];
 	          });
 
-	          setDomain("x", selected);
+	          if (selected.length) setDomain("x", selected);
 	        }
 	      });
 
-	      d3.select(_reactDom2['default'].findDOMNode(this.refs.brushRect)).call(brush).selectAll('rect').attr("y", -6).attr("height", brushHeight - brushMargins.bottom - brushMargins.top + 7).style('stroke', '#FFF').style('fill-opacity', .125).style('shape-rendering', 'crispEdges');
+	      _d32['default'].select(_reactDom2['default'].findDOMNode(this.refs.brushRect)).call(brush).selectAll('rect').attr("y", -6).attr("height", brushHeight - brushMargins.bottom - brushMargins.top + 7).style('stroke', '#FFF').style('fill-opacity', .125).style('shape-rendering', 'crispEdges');
 
 	      this.setState({
 	        brushSet: true
@@ -24445,7 +25957,7 @@ var ReactD3Brush =
 	          });
 	        } else if (brushType === 'bar_group') {
 	          // settings x1
-	          var x1 = d3.scale.ordinal();
+	          var x1 = _d32['default'].scale.ordinal();
 
 	          // mapping x1, inner x axis
 	          x1.domain(chartSeriesData.map(function (d) {
@@ -24484,10 +25996,9 @@ var ReactD3Brush =
 
 	exports['default'] = Brush;
 	module.exports = exports['default'];
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 168 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24510,7 +26021,7 @@ var ReactD3Brush =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _commonProps = __webpack_require__(166);
+	var _commonProps = __webpack_require__(180);
 
 	var _commonProps2 = _interopRequireDefault(_commonProps);
 
@@ -24530,13 +26041,16 @@ var ReactD3Brush =
 	      var height = _props.height;
 	      var width = _props.width;
 	      var margins = _props.margins;
+	      var chartId = _props.chartId;
+
+	      var id = "react-d3-basic__brush_focus__clip__" + chartId;
 
 	      return _react2['default'].createElement(
 	        'defs',
 	        null,
 	        _react2['default'].createElement(
 	          'clipPath',
-	          { id: 'react-d3-basic__brush_focus__clip' },
+	          { id: id },
 	          _react2['default'].createElement('rect', {
 	            width: width - margins.left - margins.right,
 	            height: height - margins.top - margins.bottom
@@ -24557,7 +26071,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 169 */
+/* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24586,15 +26100,15 @@ var ReactD3Brush =
 
 	var _reactD3Basic = __webpack_require__(82);
 
-	var _inheritIndex = __webpack_require__(165);
+	var _inheritIndex = __webpack_require__(179);
 
 	var _inheritIndex2 = _interopRequireDefault(_inheritIndex);
 
-	var _utilsBrush = __webpack_require__(167);
+	var _utilsBrush = __webpack_require__(181);
 
 	var _utilsBrush2 = _interopRequireDefault(_utilsBrush);
 
-	var _utilsBrush_focus = __webpack_require__(168);
+	var _utilsBrush_focus = __webpack_require__(182);
 
 	var _utilsBrush_focus2 = _interopRequireDefault(_utilsBrush_focus);
 
@@ -24659,7 +26173,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 170 */
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24688,15 +26202,15 @@ var ReactD3Brush =
 
 	var _reactD3Basic = __webpack_require__(82);
 
-	var _inheritIndex = __webpack_require__(165);
+	var _inheritIndex = __webpack_require__(179);
 
 	var _inheritIndex2 = _interopRequireDefault(_inheritIndex);
 
-	var _utilsBrush = __webpack_require__(167);
+	var _utilsBrush = __webpack_require__(181);
 
 	var _utilsBrush2 = _interopRequireDefault(_utilsBrush);
 
-	var _utilsBrush_focus = __webpack_require__(168);
+	var _utilsBrush_focus = __webpack_require__(182);
 
 	var _utilsBrush_focus2 = _interopRequireDefault(_utilsBrush_focus);
 
@@ -24761,7 +26275,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 171 */
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24790,15 +26304,15 @@ var ReactD3Brush =
 
 	var _reactD3Basic = __webpack_require__(82);
 
-	var _inheritIndex = __webpack_require__(165);
+	var _inheritIndex = __webpack_require__(179);
 
 	var _inheritIndex2 = _interopRequireDefault(_inheritIndex);
 
-	var _utilsBrush = __webpack_require__(167);
+	var _utilsBrush = __webpack_require__(181);
 
 	var _utilsBrush2 = _interopRequireDefault(_utilsBrush);
 
-	var _utilsBrush_focus = __webpack_require__(168);
+	var _utilsBrush_focus = __webpack_require__(182);
 
 	var _utilsBrush_focus2 = _interopRequireDefault(_utilsBrush_focus);
 
@@ -24863,7 +26377,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 172 */
+/* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24892,15 +26406,15 @@ var ReactD3Brush =
 
 	var _reactD3Basic = __webpack_require__(82);
 
-	var _inheritIndex = __webpack_require__(165);
+	var _inheritIndex = __webpack_require__(179);
 
 	var _inheritIndex2 = _interopRequireDefault(_inheritIndex);
 
-	var _utilsBrush = __webpack_require__(167);
+	var _utilsBrush = __webpack_require__(181);
 
 	var _utilsBrush2 = _interopRequireDefault(_utilsBrush);
 
-	var _utilsBrush_focus = __webpack_require__(168);
+	var _utilsBrush_focus = __webpack_require__(182);
 
 	var _utilsBrush_focus2 = _interopRequireDefault(_utilsBrush_focus);
 
@@ -24965,7 +26479,7 @@ var ReactD3Brush =
 	module.exports = exports['default'];
 
 /***/ },
-/* 173 */
+/* 187 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24994,15 +26508,15 @@ var ReactD3Brush =
 
 	var _reactD3Basic = __webpack_require__(82);
 
-	var _inheritIndex = __webpack_require__(165);
+	var _inheritIndex = __webpack_require__(179);
 
 	var _inheritIndex2 = _interopRequireDefault(_inheritIndex);
 
-	var _utilsBrush = __webpack_require__(167);
+	var _utilsBrush = __webpack_require__(181);
 
 	var _utilsBrush2 = _interopRequireDefault(_utilsBrush);
 
-	var _utilsBrush_focus = __webpack_require__(168);
+	var _utilsBrush_focus = __webpack_require__(182);
 
 	var _utilsBrush_focus2 = _interopRequireDefault(_utilsBrush_focus);
 
