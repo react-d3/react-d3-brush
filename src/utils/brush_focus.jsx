@@ -23,11 +23,14 @@ export default class BrushFocus extends Component {
       height,
       width,
       margins,
+      chartId
     } = this.props;
+
+    var id = "react-d3-basic__brush_focus__clip__" + chartId;
 
     return (
       <defs>
-        <clipPath id="react-d3-basic__brush_focus__clip">
+        <clipPath id={id}>
           <rect
             width={width - margins.left - margins.right}
             height={height - margins.top - margins.bottom}

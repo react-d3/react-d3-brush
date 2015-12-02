@@ -40,6 +40,7 @@ var LineBrush = require('../../lib').LineBrush;
       interpolate = {interpolate}
       x= {x}
       xScale= {xScale}
+      chartId= {2}
     />
   , document.getElementById('data_brush_line_multi')
   )

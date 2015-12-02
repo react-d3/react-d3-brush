@@ -13,4 +13,5 @@ export default {
   xScale: 'linear',
   yScale: 'linear',
   brushHeight: brushHeight,
+  chartId: 0
 }
