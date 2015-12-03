@@ -121,13 +121,13 @@ export default class Brush extends Component {
         }
       });
 
-    d3.select(ReactDOM.findDOMNode(this.refs.brushRect))
+    var brushDom = d3.select(ReactDOM.findDOMNode(this.refs.brushRect))
       .call(brush)
     .selectAll('rect')
       .attr("y", -6)
       .attr("height", brushHeight - brushMargins.bottom - brushMargins.top + 7)
       .style('stroke', '#FFF')
-      .style('fill-opacity', .125)
+      .style('fill-opacity', .25)
       .style('shape-rendering', 'crispEdges');
 
     this.setState({
